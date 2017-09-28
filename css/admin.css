@@ -1,0 +1,417 @@
+header {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  height: .88rem;
+  background: none; }
+  header button:nth-child(1) {
+    display: block;
+    border: none;
+    background: none;
+    padding-left: .3rem; }
+    header button:nth-child(1) img {
+      width: .44rem;
+      height: .44rem; }
+  header .bts {
+    display: block;
+    border: none;
+    background: none;
+    padding-right: .23rem; }
+    header .bts img {
+      width: .49rem;
+      height: .45rem; }
+  header b {
+    display: block;
+    line-height: .88rem;
+    font-size: .32rem;
+    color: #fff; }
+
+main {
+  margin-top: -.88rem; }
+  main .Entry-top {
+    height: 2.46rem;
+    background: url(../img/admin/header-bg.jpg) no-repeat center center;
+    background-size: 100% auto;
+    overflow: hidden; }
+    main .Entry-top a {
+      display: block;
+      margin: 1.22rem auto 0;
+      width: 2.51rem;
+      height: .89rem;
+      border: 2px solid #e1e3e3;
+      line-height: .85rem;
+      text-align: center;
+      font-size: .33rem;
+      text-decoration: none;
+      color: #fff; }
+  main .collect {
+    padding: .22rem 0;
+    background: #323232;
+    line-height: .43rem; }
+    main .collect ul {
+      width: 100%;
+      display: flex; }
+      main .collect ul li {
+        flex: 1;
+        height: .43rem; }
+        main .collect ul li a {
+          width: 100%;
+          display: block;
+          line-height: .43rem;
+          font-size: .3rem;
+          text-align: center;
+          color: #fff;
+          text-decoration: none; }
+      main .collect ul li:nth-child(2) {
+        border-left: 1px solid #e1e3e3;
+        border-right: 1px solid #e1e3e3; }
+  main .order {
+    height: .88rem;
+    margin-top: .2rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 .3rem;
+    background: #fff; }
+    main .order h3 {
+      line-height: .86rem;
+      float: left;
+      font-size: .32rem;
+      color: #444; }
+    main .order a {
+      display: block;
+      float: right;
+      height: .86rem;
+      text-decoration: none; }
+      main .order a span {
+        display: block;
+        float: left;
+        line-height: .86rem;
+        font-size: .26rem;
+        color: #b8b8b8; }
+      main .order a b {
+        display: block;
+        float: right;
+        height: .86rem; }
+        main .order a b img {
+          width: .15rem;
+          height: .24rem;
+          margin-top: .33rem;
+          margin-left: .12rem; }
+  main .payment {
+    padding: .25rem 0 .18rem;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff; }
+    main .payment ul {
+      width: 100%;
+      display: flex; }
+      main .payment ul li {
+        flex: 1;
+        height: .97rem; }
+        main .payment ul li a {
+          display: block;
+          height: .97rem;
+          width: 100%;
+          text-decoration: none; }
+          main .payment ul li a b {
+            display: block;
+            width: 100%;
+            height: .56rem; }
+            main .payment ul li a b img {
+              height: .56rem;
+              width: auto;
+              margin: 0 auto; }
+          main .payment ul li a p {
+            line-height: .41rem;
+            font-size: .23rem;
+            text-align: center;
+            color: #444; }
+  main .empty {
+    width: 100%;
+    height: .21rem;
+    background: #f0f0f0; }
+  main .order2 {
+    height: .88rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 .3rem;
+    background: #fff; }
+    main .order2 h3 {
+      line-height: .86rem;
+      float: left;
+      font-size: .32rem;
+      color: #444; }
+  main .property {
+    padding: .26rem 0 .19rem;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5; }
+    main .property ul {
+      width: 100%;
+      display: flex; }
+      main .property ul li {
+        flex: 1;
+        height: .96rem; }
+        main .property ul li a {
+          display: block;
+          width: 100%;
+          height: .96rem;
+          text-decoration: none; }
+          main .property ul li a b {
+            display: block;
+            width: 100%;
+            height: .56rem; }
+            main .property ul li a b img {
+              height: .56rem;
+              width: auto;
+              margin: 0 auto; }
+          main .property ul li a p {
+            line-height: .4rem;
+            font-size: .22rem;
+            text-align: center;
+            color: #444; }
+      main .property ul li:nth-child(4) a {
+        position: relative; }
+        main .property ul li:nth-child(4) a span {
+          display: block;
+          position: absolute;
+          width: .78rem;
+          height: .3rem;
+          background: url(../img/admin/lijikaotong.png) no-repeat;
+          background-size: 100% 100%;
+          line-height: .3rem;
+          text-align: center;
+          font-size: .16rem;
+          left: 50%;
+          top: -9%;
+          color: #fff; }
+  main .empty2 {
+    width: 100%;
+    height: .21rem;
+    background: #f0f0f0; }
+  main .heart {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    background: #fff; }
+    main .heart ul {
+      width: 100%; }
+      main .heart ul li {
+        width: 100%;
+        height: .88rem; }
+        main .heart ul li a {
+          display: block;
+          height: .88rem;
+          width: 100%;
+          display: flex;
+          text-decoration: none; }
+          main .heart ul li a i {
+            display: block;
+            width: 1.05rem;
+            height: .88rem; }
+            main .heart ul li a i img {
+              width: .44rem;
+              height: .44rem;
+              margin: .22rem auto 0; }
+          main .heart ul li a .stroll {
+            flex: 1;
+            height: .88rem;
+            padding-right: .31rem; }
+            main .heart ul li a .stroll h3 {
+              line-height: .88rem;
+              float: left;
+              font-size: .31rem;
+              color: #6e6e6e;
+              font-weight: 500; }
+            main .heart ul li a .stroll b {
+              display: block;
+              float: right;
+              height: .86rem; }
+              main .heart ul li a .stroll b img {
+                width: .15rem;
+                height: .24rem;
+                margin-top: .33rem;
+                margin-left: .12rem; }
+      main .heart ul li:nth-child(1) a .stroll {
+        border-bottom: 1px solid #e5e5e5; }
+  main .empty3 {
+    width: 100%;
+    height: .21rem;
+    background: #f0f0f0; }
+  main .invite {
+    height: .9rem;
+    background: #d0021b;
+    display: flex; }
+    main .invite i {
+      display: block;
+      width: 1.05rem;
+      height: .88rem; }
+      main .invite i img {
+        width: .44rem;
+        height: .44rem;
+        margin: .22rem auto 0; }
+    main .invite .stroll {
+      flex: 1;
+      height: .88rem;
+      padding-right: .31rem; }
+      main .invite .stroll h3 {
+        line-height: .88rem;
+        float: left;
+        font-size: .31rem;
+        color: #fff;
+        font-weight: 500; }
+      main .invite .stroll b {
+        display: block;
+        float: right;
+        height: .86rem; }
+        main .invite .stroll b img {
+          width: .15rem;
+          height: .24rem;
+          margin-top: .33rem;
+          margin-left: .12rem; }
+  main .share {
+    height: .9rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+    display: flex; }
+    main .share i {
+      display: block;
+      width: 1.05rem;
+      height: .88rem; }
+      main .share i img {
+        width: .44rem;
+        height: .44rem;
+        margin: .22rem auto 0; }
+    main .share .stroll {
+      flex: 1;
+      height: .88rem;
+      padding-right: .31rem;
+      position: relative; }
+      main .share .stroll h3 {
+        line-height: .88rem;
+        float: left;
+        font-size: .31rem;
+        color: #6e6e6e;
+        font-weight: 500; }
+      main .share .stroll b {
+        display: block;
+        float: right;
+        height: .86rem; }
+        main .share .stroll b img {
+          width: .15rem;
+          height: .24rem;
+          margin-top: .33rem;
+          margin-left: .12rem; }
+      main .share .stroll span {
+        display: block;
+        position: absolute;
+        width: .13rem;
+        height: .13rem;
+        top: .39rem;
+        right: .7rem; }
+        main .share .stroll span img {
+          width: 100%;
+          height: 100%; }
+  main .empty4 {
+    width: 100%;
+    height: .21rem;
+    background: #f0f0f0; }
+  main .serve {
+    height: .9rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+    display: flex; }
+    main .serve i {
+      display: block;
+      width: 1.05rem;
+      height: .88rem; }
+      main .serve i img {
+        width: .44rem;
+        height: .44rem;
+        margin: .22rem auto 0; }
+    main .serve .stroll {
+      flex: 1;
+      height: .88rem;
+      padding-right: .31rem; }
+      main .serve .stroll h3 {
+        line-height: .88rem;
+        float: left;
+        font-size: .31rem;
+        color: #6e6e6e;
+        font-weight: 500; }
+      main .serve .stroll b {
+        display: block;
+        float: right;
+        height: .86rem; }
+        main .serve .stroll b img {
+          width: .15rem;
+          height: .24rem;
+          margin-top: .33rem;
+          margin-left: .12rem; }
+  main .empty5 {
+    width: 100%;
+    height: .21rem;
+    background: #f0f0f0; }
+  main .contains {
+    padding-left: .36rem;
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #e5e5e5; }
+    main .contains h3 {
+      line-height: .71rem;
+      text-align: center;
+      font-size: .3rem;
+      color: #4f4f4f;
+      font-weight: 500;
+      margin-top: .15rem; }
+    main .contains ul {
+      width: 100%; }
+      main .contains ul li {
+        width: 50%;
+        padding-right: .36rem;
+        float: left;
+        margin-top: .57rem; }
+        main .contains ul li a {
+          width: 100%;
+          display: block;
+          text-decoration: none; }
+          main .contains ul li a b {
+            display: block;
+            width: 100%;
+            height: 4.3rem; }
+            main .contains ul li a b img {
+              width: 100%;
+              height: 100%; }
+          main .contains ul li a p {
+            margin-top: .21rem;
+            line-height: .35rem;
+            height: .7rem;
+            font-size: .2rem;
+            color: #4f4f4f;
+            text-overflow: ellipsis;
+            overflow: hidden; }
+          main .contains ul li a .price {
+            width: 100%;
+            line-height: .46rem;
+            color: #747474;
+            font-size: .16rem; }
+            main .contains ul li a .price span:nth-child(1) {
+              color: #d41d34; }
+            main .contains ul li a .price span:nth-child(2) {
+              color: #b0b0b0;
+              text-decoration: line-through; }
+            main .contains ul li a .price button {
+              display: block;
+              border: none;
+              background: none;
+              width: .8rem;
+              height: .46rem;
+              float: right;
+              padding: 0 0; }
+              main .contains ul li a .price button img {
+                width: .3rem;
+                height: .08rem;
+                float: right;
+                margin-right: .18rem; }
+
+/*# sourceMappingURL=admin.css.map */

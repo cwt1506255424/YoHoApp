@@ -1,0 +1,630 @@
+main {
+  -webkit-text-size-adjust: 100%; }
+  main .breed {
+    width: 100%;
+    height: 3.38rem;
+    background: #fff;
+    overflow: hidden;
+    padding: .08rem .26rem .2rem; }
+    main .breed ul li {
+      float: left;
+      height: 1.55rem;
+      width: 20%;
+      padding: .17rem 0; }
+      main .breed ul li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none; }
+        main .breed ul li a b {
+          height: .91rem;
+          display: block;
+          width: 100%; }
+          main .breed ul li a b img {
+            width: .88rem;
+            height: .88rem;
+            margin: 0 auto; }
+      main .breed ul li p {
+        line-height: .3rem;
+        font-size: .22rem;
+        text-align: center;
+        color: #666; }
+  main .summer {
+    width: 100%;
+    height: 2.35rem; }
+    main .summer img {
+      width: 100%;
+      height: 100%; }
+  main .Vans {
+    width: 100%;
+    height: 2.35rem;
+    margin-top: .3rem; }
+    main .Vans img {
+      width: 100%;
+      height: 100%; }
+  main .tag1 {
+    line-height: .81rem;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #444;
+    font-weight: 600;
+    position: relative;
+    background: #f0f0f0; }
+    main .tag1 i {
+      position: absolute;
+      line-height: .81rem;
+      right: .4rem;
+      font-size: .4rem;
+      color: #b0b0b0; }
+  main .fashion {
+    width: 100%;
+    height: 2.34rem; }
+    main .fashion img {
+      width: 100%;
+      height: 100%; }
+  main .scrollTag {
+    height: 2.5rem;
+    margin-top: .2rem;
+    background: #fff;
+    padding: .2rem 0 .3rem;
+    display: flex;
+    position: relative; }
+    main .scrollTag .tag-left {
+      width: .4rem;
+      height: 2rem;
+      position: absolute;
+      top: .2rem;
+      left: 0; }
+      main .scrollTag .tag-left img {
+        width: 100%;
+        height: 100%; }
+      main .scrollTag .tag-left span {
+        position: absolute;
+        display: block;
+        font-size: .21rem;
+        color: #fff;
+        top: .3rem;
+        left: .06rem; }
+    main .scrollTag ul {
+      height: 2rem;
+      white-space: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      display: flex;
+      padding-left: .4rem; }
+      main .scrollTag ul li {
+        margin-left: .2rem;
+        width: 3.02rem; }
+        main .scrollTag ul li a {
+          width: 3.02rem;
+          height: 2rem;
+          display: block;
+          text-decoration: none; }
+          main .scrollTag ul li a .tags-left {
+            width: 1.51rem;
+            height: 2rem;
+            float: left;
+            background: #f5f7f6; }
+            main .scrollTag ul li a .tags-left img {
+              width: 100%;
+              height: 100%; }
+          main .scrollTag ul li a .tags-right {
+            width: 1.51rem;
+            height: 2rem;
+            float: left;
+            padding: .2rem; }
+            main .scrollTag ul li a .tags-right p {
+              padding-top: .05rem;
+              line-height: .25rem;
+              font-size: .14rem;
+              color: #444;
+              text-align: center;
+              font-weight: 300; }
+            main .scrollTag ul li a .tags-right h3 {
+              margin-top: .19rem;
+              line-height: .3rem;
+              text-align: center;
+              color: #444;
+              font-size: .18rem;
+              font-weight: 400; }
+            main .scrollTag ul li a .tags-right b {
+              display: block;
+              line-height: .18rem;
+              margin-top: .29rem;
+              font-size: .16rem;
+              text-align: right;
+              color: #dbdbdb;
+              font-weight: 400; }
+              main .scrollTag ul li a .tags-right b i {
+                font-size: .16rem;
+                font-weight: 100; }
+  main .category {
+    width: 100%;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .3rem;
+    font-weight: 600; }
+  main .Hot {
+    width: 100%; }
+    main .Hot ul {
+      width: 100%; }
+      main .Hot ul li {
+        height: 2.05rem;
+        width: 25%;
+        float: left;
+        border-right: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5; }
+        main .Hot ul li a {
+          width: 100%;
+          height: 2.05rem; }
+          main .Hot ul li a img {
+            width: 100%;
+            height: 100%; }
+      main .Hot ul li:nth-child(4), main .Hot ul li:nth-child(8), main .Hot ul li:nth-child(12) {
+        border-right: none; }
+      main .Hot ul li:nth-child(9), main .Hot ul li:nth-child(10), main .Hot ul li:nth-child(11), main .Hot ul li:nth-child(12) {
+        border-bottom: none; }
+  main .effect {
+    width: 100%;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .3rem;
+    font-weight: 600; }
+  main .brand {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden; }
+    main .brand ul {
+      width: 100%; }
+      main .brand ul li {
+        height: 2.05rem;
+        float: left;
+        width: 25%;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff; }
+        main .brand ul li a {
+          width: 100%;
+          height: 2.05rem; }
+          main .brand ul li a img {
+            width: 100%;
+            height: 100%; }
+      main .brand ul li:nth-child(5), main .brand ul li:nth-child(6), main .brand ul li:nth-child(7) {
+        border-bottom: none; }
+      main .brand ul li:nth-child(7) {
+        width: 50%;
+        border-right: none; }
+  main .empty {
+    width: 100%;
+    height: .3rem; }
+  main .week {
+    width: 100%;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .3rem;
+    font-weight: 600; }
+  main .Select {
+    width: 100%;
+    height: 4.24rem; }
+    main .Select .Sel-left {
+      width: 42%;
+      height: 4.24rem;
+      float: left; }
+      main .Select .Sel-left a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+        main .Select .Sel-left a img {
+          width: 100%;
+          height: 100%; }
+    main .Select .Sel-right {
+      width: 58%;
+      height: 4.24rem;
+      float: left; }
+      main .Select .Sel-right ul {
+        width: 100%;
+        height: 4.24rem; }
+        main .Select .Sel-right ul li {
+          float: left;
+          width: 50%;
+          height: 50%;
+          border-right: 1px solid #e1e1e1;
+          border-bottom: 1px solid #e1e1e1; }
+          main .Select .Sel-right ul li a {
+            display: block;
+            width: 100%;
+            height: 100%; }
+            main .Select .Sel-right ul li a img {
+              width: 100%;
+              height: 100%; }
+        main .Select .Sel-right ul li:nth-child(2) {
+          border-right: none; }
+        main .Select .Sel-right ul li:nth-child(3), main .Select .Sel-right ul li:nth-child(4) {
+          border-bottom: none; }
+  main .tag2 {
+    line-height: .81rem;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #444;
+    font-weight: 600;
+    position: relative;
+    background: #f0f0f0; }
+    main .tag2 i {
+      position: absolute;
+      line-height: .81rem;
+      right: .4rem;
+      font-size: .4rem;
+      color: #b0b0b0; }
+  main .flash3 {
+    height: 6.23rem;
+    border-bottom: 1px solid #e5e5e5; }
+    main .flash3 .slider-bg {
+      width: 100px;
+      height: 12px;
+      background: rgba(0, 0, 0, 0.2);
+      position: absolute;
+      bottom: 11px;
+      left: 50%;
+      margin-left: -50px;
+      z-index: 1;
+      border-radius: 6px; }
+    main .flash3 .swiper-wrapper .swiper-slide {
+      width: 100%;
+      height: 6.23rem;
+      padding: .31rem .3rem;
+      background: #fff; }
+      main .flash3 .swiper-wrapper .swiper-slide a {
+        display: block;
+        width: 100%;
+        height: 6.23rem;
+        text-decoration: none; }
+        main .flash3 .swiper-wrapper .swiper-slide a b {
+          display: block;
+          width: 100%;
+          height: 4.28rem; }
+          main .flash3 .swiper-wrapper .swiper-slide a b img {
+            width: 100%;
+            height: 100%; }
+        main .flash3 .swiper-wrapper .swiper-slide a p {
+          margin-top: .28rem;
+          line-height: .51rem;
+          font-size: .3rem;
+          font-weight: 600;
+          color: #454545; }
+        main .flash3 .swiper-wrapper .swiper-slide a span {
+          display: block;
+          line-height: .31rem;
+          font-size: .26rem;
+          color: #b0b0b0;
+          margin-top: .13rem; }
+          main .flash3 .swiper-wrapper .swiper-slide a span i {
+            font-size: .26rem;
+            line-height: .31rem; }
+  main .tie-in {
+    line-height: .81rem;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #444;
+    font-weight: 600;
+    position: relative;
+    background: #f0f0f0; }
+    main .tie-in i {
+      position: absolute;
+      line-height: .81rem;
+      right: .4rem;
+      font-size: .4rem;
+      color: #b0b0b0; }
+  main .flash4 {
+    height: 6.23rem;
+    border-bottom: 1px solid #e5e5e5; }
+    main .flash4 .slider-bg {
+      width: 100px;
+      height: 12px;
+      background: rgba(0, 0, 0, 0.2);
+      position: absolute;
+      bottom: 11px;
+      left: 50%;
+      margin-left: -50px;
+      z-index: 1;
+      border-radius: 6px; }
+    main .flash4 .swiper-wrapper .swiper-slide {
+      width: 100%;
+      height: 6.23rem;
+      padding: .31rem .3rem;
+      background: #fff; }
+      main .flash4 .swiper-wrapper .swiper-slide a {
+        display: block;
+        width: 100%;
+        height: 6.23rem;
+        text-decoration: none; }
+        main .flash4 .swiper-wrapper .swiper-slide a b {
+          display: block;
+          width: 100%;
+          height: 4.28rem; }
+          main .flash4 .swiper-wrapper .swiper-slide a b img {
+            width: 100%;
+            height: 100%; }
+        main .flash4 .swiper-wrapper .swiper-slide a p {
+          margin-top: .28rem;
+          line-height: .51rem;
+          font-size: .3rem;
+          font-weight: 600;
+          color: #454545; }
+        main .flash4 .swiper-wrapper .swiper-slide a span {
+          display: block;
+          line-height: .31rem;
+          font-size: .26rem;
+          color: #b0b0b0;
+          margin-top: .13rem; }
+          main .flash4 .swiper-wrapper .swiper-slide a span i {
+            font-size: .26rem;
+            line-height: .31rem; }
+  main .tag3 {
+    line-height: .81rem;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #444;
+    font-weight: 600;
+    position: relative;
+    background: #f0f0f0; }
+    main .tag3 i {
+      position: absolute;
+      line-height: .81rem;
+      right: .4rem;
+      font-size: .4rem;
+      color: #b0b0b0; }
+  main .attitude {
+    width: 100%;
+    height: 2.34rem; }
+    main .attitude img {
+      width: 100%;
+      height: 100%; }
+  main .scrollTag2 {
+    padding: .28rem .3rem;
+    padding-right: 0;
+    background: #fff;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden; }
+    main .scrollTag2 ul {
+      width: 33.6rem;
+      height: 3.36rem;
+      display: flex; }
+      main .scrollTag2 ul li {
+        width: 1.8rem;
+        height: 3.33rem;
+        margin-right: .3rem; }
+        main .scrollTag2 ul li a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-decoration: none; }
+          main .scrollTag2 ul li a .scl-t {
+            width: 100%;
+            height: 2.4rem; }
+            main .scrollTag2 ul li a .scl-t img {
+              width: 100%;
+              height: 100%; }
+          main .scrollTag2 ul li a span {
+            display: block;
+            line-height: .5rem;
+            font-size: .18rem;
+            font-weight: 600;
+            color: #444;
+            text-align: center; }
+          main .scrollTag2 ul li a p {
+            line-height: .22rem;
+            font-size: .12rem;
+            color: #b0b0b0;
+            text-align: center; }
+  main .tag4 {
+    line-height: .81rem;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #444;
+    font-weight: 600;
+    position: relative;
+    background: #f0f0f0; }
+    main .tag4 i {
+      position: absolute;
+      line-height: .81rem;
+      right: .4rem;
+      font-size: .4rem;
+      color: #b0b0b0; }
+  main .arrivals {
+    width: 100%;
+    height: 2.34rem; }
+    main .arrivals img {
+      width: 100%;
+      height: 100%; }
+  main .scrollTag3 {
+    padding: .3rem .24rem;
+    background: #fff;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden; }
+    main .scrollTag3 ul {
+      width: 16.74rem;
+      height: 2.99rem;
+      display: flex; }
+      main .scrollTag3 ul li {
+        width: 1.8rem;
+        height: 2.99rem;
+        margin-right: .3rem; }
+        main .scrollTag3 ul li a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-decoration: none; }
+          main .scrollTag3 ul li a .scl-t {
+            width: 100%;
+            height: 2.4rem; }
+            main .scrollTag3 ul li a .scl-t img {
+              width: 100%;
+              height: 100%; }
+          main .scrollTag3 ul li a span {
+            display: block;
+            line-height: .59rem;
+            text-align: center;
+            font-size: .18rem;
+            font-weight: 600;
+            color: #e05969; }
+      main .scrollTag3 ul li:nth-child(8) {
+        margin-right: .24rem; }
+  main .tag5 {
+    line-height: .81rem;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #444;
+    font-weight: 600;
+    position: relative;
+    background: #f0f0f0; }
+  main .Teeb {
+    width: 100%;
+    overflow: hidden; }
+    main .Teeb ul {
+      width: 100%; }
+      main .Teeb ul li {
+        float: left;
+        width: 50%;
+        height: 1.8rem;
+        border-top: 1px solid #dee2e1;
+        border-right: 1px solid #dee2e1; }
+        main .Teeb ul li a {
+          width: 100%;
+          height: 100%; }
+          main .Teeb ul li a img {
+            width: 100%;
+            height: 100%; }
+      main .Teeb ul li:nth-child(2), main .Teeb ul li:nth-child(4), main .Teeb ul li:nth-child(6), main .Teeb ul li:nth-child(8) {
+        border-right: none; }
+      main .Teeb ul li:nth-child(7), main .Teeb ul li:nth-child(8) {
+        border-bottom: 1px solid #dee2e1; }
+  main .tag6 {
+    line-height: .81rem;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #444;
+    font-weight: 600;
+    position: relative;
+    background: #f0f0f0; }
+  main .original {
+    width: 100%;
+    overflow: hidden; }
+    main .original ul {
+      width: 100%; }
+      main .original ul li {
+        float: left;
+        height: 1.8rem;
+        width: 50%; }
+        main .original ul li a {
+          width: 100%;
+          height: 100%; }
+          main .original ul li a img {
+            width: 100%;
+            height: 100%; }
+      main .original ul li:nth-child(1) {
+        border-right: 3px solid #fff;
+        border-bottom: 2px solid #fff; }
+      main .original ul li:nth-child(2) {
+        border-left: 3px solid #fff;
+        border-bottom: 2px solid #fff; }
+      main .original ul li:nth-child(3) {
+        border-right: 3px solid #fff;
+        border-top: 2px solid #fff; }
+      main .original ul li:nth-child(4) {
+        border-left: 3px solid #fff;
+        border-top: 2px solid #fff; }
+  main .tag7 {
+    line-height: .81rem;
+    width: 100%;
+    text-align: center;
+    font-size: .3rem;
+    color: #444;
+    font-weight: 600;
+    position: relative;
+    background: #f0f0f0; }
+  main .MoGao {
+    width: 100%;
+    padding: 0 .3rem;
+    overflow: hidden;
+    background: #fff; }
+    main .MoGao ul {
+      width: 100%; }
+      main .MoGao ul li {
+        width: 50%;
+        float: left;
+        padding-top: .52rem; }
+        main .MoGao ul li a {
+          width: 100%;
+          height: 100%;
+          text-decoration: none; }
+          main .MoGao ul li a .scl-t {
+            height: 4.28rem;
+            width: 100%; }
+            main .MoGao ul li a .scl-t img {
+              width: 100%;
+              height: 100%; }
+          main .MoGao ul li a p {
+            height: .74rem;
+            line-height: .37rem;
+            margin-top: .22rem;
+            font-size: .18rem;
+            color: #6e6e6e; }
+          main .MoGao ul li a span {
+            display: block;
+            line-height: .41rem;
+            font-size: .18rem;
+            font-weight: 500;
+            color: #9b9b9b; }
+            main .MoGao ul li a span i {
+              display: block;
+              float: right;
+              margin-right: .19rem;
+              color: #b0b0b0;
+              line-height: .41rem; }
+      main .MoGao ul li:nth-child(1), main .MoGao ul li:nth-child(3) {
+        padding-right: .23rem; }
+      main .MoGao ul li:nth-child(2), main .MoGao ul li:nth-child(4) {
+        padding-left: .23rem; }
+      main .MoGao ul li:nth-child(5), main .MoGao ul li:nth-child(7) {
+        padding-right: .23rem; }
+        main .MoGao ul li:nth-child(5) span, main .MoGao ul li:nth-child(7) span {
+          color: #d31128; }
+          main .MoGao ul li:nth-child(5) span b, main .MoGao ul li:nth-child(7) span b {
+            color: #bababa;
+            text-decoration: line-through;
+            font-weight: 500; }
+      main .MoGao ul li:nth-child(6) {
+        padding-left: .23rem; }
+        main .MoGao ul li:nth-child(6) span {
+          color: #d31128; }
+          main .MoGao ul li:nth-child(6) span b {
+            color: #bababa;
+            text-decoration: line-through;
+            font-weight: 500; }
+      main .MoGao ul li:nth-child(8) {
+        padding-left: .23rem;
+        padding-bottom: .52rem; }
+      main .MoGao ul li:nth-child(7) {
+        padding-bottom: .52rem; }
+
+.back-top {
+  width: .88rem;
+  height: .88rem;
+  position: fixed;
+  right: .26rem;
+  bottom: 1.33rem;
+  z-index: 20;
+  display: none; }
+  .back-top img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=index.css.map */

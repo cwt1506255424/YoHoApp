@@ -1,0 +1,1056 @@
+header {
+  height: 1.76rem;
+  background: #fff;
+  display: inline; }
+  header .show-t {
+    height: .88rem;
+    width: 100%;
+    background: #3e3e3e;
+    display: flex;
+    justify-content: space-between; }
+    header .show-t button {
+      height: 100%;
+      width: .88rem;
+      border: none;
+      background: #3e3e3e;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header .show-t button .iconfont {
+        color: #fff;
+        font-size: .43rem; }
+    header .show-t b {
+      width: .88rem;
+      height: .88rem; }
+      header .show-t b img {
+        width: .88rem;
+        height: .88rem; }
+    header .show-t .show {
+      width: 60%;
+      height: .88rem; }
+      header .show-t .show ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        header .show-t .show ul li {
+          line-height: .82rem; }
+          header .show-t .show ul li a {
+            height: .82rem;
+            padding: 0 .3rem;
+            display: block;
+            line-height: .82rem;
+            font-size: .32rem;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+            position: relative; }
+        header .show-t .show ul li:nth-child(1) {
+          border-bottom: .06rem solid #fff; }
+        header .show-t .show ul li:nth-child(2) a span {
+          display: block;
+          position: absolute;
+          width: .4rem;
+          height: .2rem;
+          top: .1rem;
+          right: .25rem; }
+          header .show-t .show ul li:nth-child(2) a span img {
+            width: 100%;
+            height: 100%; }
+        header .show-t .show ul li:nth-child(3) a {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center; }
+          header .show-t .show ul li:nth-child(3) a img {
+            width: 1.22rem;
+            height: .45rem; }
+          header .show-t .show ul li:nth-child(3) a span {
+            display: block;
+            position: absolute;
+            width: .4rem;
+            height: .2rem;
+            top: .1rem;
+            right: .25rem; }
+            header .show-t .show ul li:nth-child(3) a span img {
+              width: 100%;
+              height: 100%; }
+  header .show-b {
+    width: 100%;
+    height: .88rem; }
+    header .show-b ul {
+      width: 100%;
+      display: flex; }
+    header .show-b li {
+      flex: 1;
+      line-height: .88rem; }
+      header .show-b li a {
+        display: block;
+        text-align: center;
+        font-size: .32rem;
+        color: #808080;
+        text-decoration: none; }
+    header .show-b li:nth-child(1) a {
+      color: #363636; }
+
+main .flash1 {
+  height: 3.64rem; }
+main .pasture {
+  background: #fff;
+  padding: 0 .3rem; }
+  main .pasture .naoki {
+    line-height: .87rem;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden; }
+    main .pasture .naoki b {
+      width: .5rem;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      float: left;
+      height: .86rem;
+      padding: .18rem 0; }
+      main .pasture .naoki b img {
+        width: .5rem;
+        height: auto;
+        border-radius: 50%; }
+    main .pasture .naoki p {
+      float: left;
+      line-height: .86rem;
+      font-size: .26rem;
+      color: #000;
+      margin-left: .22rem;
+      font-weight: 500; }
+  main .pasture .topic {
+    width: 100%;
+    height: 4.3rem;
+    margin-top: .32rem;
+    position: relative; }
+    main .pasture .topic img {
+      width: 100%;
+      height: 100%; }
+    main .pasture .topic .talk {
+      width: 1.77rem;
+      height: .51rem;
+      background: url(../img/ramble/huati.png) no-repeat;
+      background-size: 100% 100%;
+      line-height: .51rem;
+      padding-left: .26rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: .3rem;
+      color: #fff; }
+  main .pasture .poise {
+    width: 100%;
+    padding-right: .22rem;
+    overflow: hidden; }
+    main .pasture .poise h3 {
+      margin-top: .21rem;
+      line-height: .61rem;
+      font-size: .37rem;
+      color: #343434; }
+    main .pasture .poise p {
+      line-height: .5rem;
+      font-size: .26rem;
+      color: #343434; }
+    main .pasture .poise .attitude {
+      line-height: .37rem;
+      margin-top: .16rem; }
+      main .pasture .poise .attitude b {
+        float: left;
+        line-height: .37rem;
+        display: flex; }
+        main .pasture .poise .attitude b span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture .poise .attitude b span:nth-child(1) img {
+            width: .27rem;
+            height: auto;
+            margin-top: .05rem; }
+        main .pasture .poise .attitude b span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture .poise .attitude i {
+        float: left;
+        line-height: .37rem;
+        display: flex;
+        margin-left: .41rem;
+        font-style: normal; }
+        main .pasture .poise .attitude i span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture .poise .attitude i span:nth-child(1) img {
+            width: .37rem;
+            height: auto; }
+        main .pasture .poise .attitude i span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture .poise .attitude em {
+        display: block;
+        height: .37rem;
+        float: right;
+        margin-left: .48rem;
+        width: .38rem;
+        overflow: hidden; }
+        main .pasture .poise .attitude em img {
+          width: .57rem;
+          height: .57rem;
+          margin-top: -.1rem;
+          margin-left: -.1rem; }
+main .taka {
+  background: #fff;
+  padding: .19rem 0 .37rem 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden; }
+  main .taka ul {
+    width: 20.13rem;
+    height: 1.61rem;
+    display: flex; }
+    main .taka ul li {
+      width: 3.75rem;
+      height: 1.61rem;
+      border-radius: .1rem;
+      margin-left: .23rem; }
+      main .taka ul li a {
+        width: 100%;
+        height: 100%;
+        background: #f0f0f0;
+        display: block; }
+        main .taka ul li a .taka-left {
+          width: 1.25rem;
+          height: 1.61rem;
+          float: left; }
+          main .taka ul li a .taka-left img {
+            width: 100%;
+            height: 100%; }
+        main .taka ul li a .taka-right {
+          width: 2.5rem;
+          height: 1.61rem;
+          padding: .19rem;
+          float: left; }
+          main .taka ul li a .taka-right p {
+            line-height: .3rem;
+            font-size: .16rem;
+            color: #4e4e4e; }
+          main .taka ul li a .taka-right span {
+            display: block;
+            line-height: .4rem;
+            font-size: .16rem;
+            color: #d62e2c;
+            margin-top: .12rem; }
+main .pasture2 {
+  background: #fff;
+  padding: 0 .3rem;
+  margin-top: .3rem; }
+  main .pasture2 .naoki {
+    line-height: .87rem;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden; }
+    main .pasture2 .naoki b {
+      width: .5rem;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      float: left;
+      height: .86rem;
+      padding: .18rem 0; }
+      main .pasture2 .naoki b img {
+        width: .5rem;
+        height: auto;
+        border-radius: 50%; }
+    main .pasture2 .naoki p {
+      float: left;
+      line-height: .86rem;
+      font-size: .26rem;
+      color: #000;
+      margin-left: .22rem;
+      font-weight: 500; }
+  main .pasture2 .topic {
+    width: 100%;
+    height: 4.3rem;
+    margin-top: .32rem;
+    position: relative; }
+    main .pasture2 .topic img {
+      width: 100%;
+      height: 100%; }
+    main .pasture2 .topic .talk {
+      width: 1.77rem;
+      height: .51rem;
+      background: url(../img/ramble/dapei.png) no-repeat;
+      background-size: 100% 100%;
+      line-height: .51rem;
+      padding-left: .26rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: .3rem;
+      color: #fff; }
+  main .pasture2 .poise {
+    width: 100%;
+    padding-right: .22rem;
+    overflow: hidden; }
+    main .pasture2 .poise h3 {
+      margin-top: .21rem;
+      line-height: .61rem;
+      font-size: .37rem;
+      color: #343434; }
+    main .pasture2 .poise p {
+      line-height: .5rem;
+      font-size: .26rem;
+      color: #343434; }
+    main .pasture2 .poise .attitude {
+      line-height: .37rem;
+      margin-top: .16rem; }
+      main .pasture2 .poise .attitude b {
+        float: left;
+        line-height: .37rem;
+        display: flex; }
+        main .pasture2 .poise .attitude b span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture2 .poise .attitude b span:nth-child(1) img {
+            width: .27rem;
+            height: auto;
+            margin-top: .05rem; }
+        main .pasture2 .poise .attitude b span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture2 .poise .attitude i {
+        float: left;
+        line-height: .37rem;
+        display: flex;
+        margin-left: .41rem;
+        font-style: normal; }
+        main .pasture2 .poise .attitude i span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture2 .poise .attitude i span:nth-child(1) img {
+            width: .37rem;
+            height: auto; }
+        main .pasture2 .poise .attitude i span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture2 .poise .attitude em {
+        display: block;
+        height: .37rem;
+        float: right;
+        margin-left: .48rem;
+        width: .38rem;
+        overflow: hidden; }
+        main .pasture2 .poise .attitude em img {
+          width: .57rem;
+          height: .57rem;
+          margin-top: -.1rem;
+          margin-left: -.1rem; }
+main .taka2 {
+  background: #fff;
+  padding: .19rem 0 .37rem 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden; }
+  main .taka2 ul {
+    width: 20.13rem;
+    height: 1.61rem;
+    display: flex; }
+    main .taka2 ul li {
+      width: 3.75rem;
+      height: 1.61rem;
+      border-radius: .1rem;
+      margin-left: .23rem; }
+      main .taka2 ul li a {
+        width: 100%;
+        height: 100%;
+        background: #f0f0f0;
+        display: block; }
+        main .taka2 ul li a .taka-left {
+          width: 1.25rem;
+          height: 1.61rem;
+          float: left; }
+          main .taka2 ul li a .taka-left img {
+            width: 100%;
+            height: 100%; }
+        main .taka2 ul li a .taka-right {
+          width: 2.5rem;
+          height: 1.61rem;
+          padding: .19rem;
+          float: left; }
+          main .taka2 ul li a .taka-right p {
+            line-height: .3rem;
+            font-size: .16rem;
+            color: #4e4e4e; }
+          main .taka2 ul li a .taka-right span {
+            display: block;
+            line-height: .4rem;
+            font-size: .16rem;
+            color: #d62e2c;
+            margin-top: .12rem; }
+main .pasture3 {
+  background: #fff;
+  padding: 0 .3rem;
+  margin-top: .3rem; }
+  main .pasture3 .naoki {
+    line-height: .87rem;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden; }
+    main .pasture3 .naoki b {
+      width: .5rem;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      float: left;
+      height: .86rem;
+      padding: .18rem 0; }
+      main .pasture3 .naoki b img {
+        width: .5rem;
+        height: auto;
+        border-radius: 50%; }
+    main .pasture3 .naoki p {
+      float: left;
+      line-height: .86rem;
+      font-size: .26rem;
+      color: #000;
+      margin-left: .22rem;
+      font-weight: 500; }
+  main .pasture3 .topic {
+    width: 100%;
+    height: 4.3rem;
+    margin-top: .32rem;
+    position: relative; }
+    main .pasture3 .topic img {
+      width: 100%;
+      height: 100%; }
+    main .pasture3 .topic .talk {
+      width: 1.77rem;
+      height: .51rem;
+      background: url(../img/ramble/dapei.png) no-repeat;
+      background-size: 100% 100%;
+      line-height: .51rem;
+      padding-left: .26rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: .3rem;
+      color: #fff; }
+  main .pasture3 .poise {
+    width: 100%;
+    padding-right: .22rem;
+    overflow: hidden; }
+    main .pasture3 .poise h3 {
+      margin-top: .21rem;
+      line-height: .61rem;
+      font-size: .37rem;
+      color: #343434; }
+    main .pasture3 .poise p {
+      line-height: .5rem;
+      font-size: .26rem;
+      color: #343434; }
+    main .pasture3 .poise .attitude {
+      line-height: .37rem;
+      margin-top: .16rem; }
+      main .pasture3 .poise .attitude b {
+        float: left;
+        line-height: .37rem;
+        display: flex; }
+        main .pasture3 .poise .attitude b span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture3 .poise .attitude b span:nth-child(1) img {
+            width: .27rem;
+            height: auto;
+            margin-top: .05rem; }
+        main .pasture3 .poise .attitude b span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture3 .poise .attitude i {
+        float: left;
+        line-height: .37rem;
+        display: flex;
+        margin-left: .41rem;
+        font-style: normal; }
+        main .pasture3 .poise .attitude i span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture3 .poise .attitude i span:nth-child(1) img {
+            width: .37rem;
+            height: auto; }
+        main .pasture3 .poise .attitude i span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture3 .poise .attitude em {
+        display: block;
+        height: .37rem;
+        float: right;
+        margin-left: .48rem;
+        width: .38rem;
+        overflow: hidden; }
+        main .pasture3 .poise .attitude em img {
+          width: .57rem;
+          height: .57rem;
+          margin-top: -.1rem;
+          margin-left: -.1rem; }
+main .taka3 {
+  background: #fff;
+  padding: .19rem 0 .37rem 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden; }
+  main .taka3 ul {
+    width: 20.13rem;
+    height: 1.61rem;
+    display: flex; }
+    main .taka3 ul li {
+      width: 3.75rem;
+      height: 1.61rem;
+      border-radius: .1rem;
+      margin-left: .23rem; }
+      main .taka3 ul li a {
+        width: 100%;
+        height: 100%;
+        background: #f0f0f0;
+        display: block; }
+        main .taka3 ul li a .taka-left {
+          width: 1.25rem;
+          height: 1.61rem;
+          float: left; }
+          main .taka3 ul li a .taka-left img {
+            width: 100%;
+            height: 100%; }
+        main .taka3 ul li a .taka-right {
+          width: 2.5rem;
+          height: 1.61rem;
+          padding: .19rem;
+          float: left; }
+          main .taka3 ul li a .taka-right p {
+            line-height: .3rem;
+            font-size: .16rem;
+            color: #4e4e4e; }
+          main .taka3 ul li a .taka-right span {
+            display: block;
+            line-height: .4rem;
+            font-size: .16rem;
+            color: #d62e2c;
+            margin-top: .12rem; }
+main .pasture4 {
+  background: #fff;
+  padding: 0 .3rem;
+  margin-top: .3rem; }
+  main .pasture4 .naoki {
+    line-height: .87rem;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden; }
+    main .pasture4 .naoki b {
+      width: .5rem;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      float: left;
+      height: .86rem;
+      padding: .18rem 0; }
+      main .pasture4 .naoki b img {
+        width: .5rem;
+        height: auto;
+        border-radius: 50%; }
+    main .pasture4 .naoki p {
+      float: left;
+      line-height: .86rem;
+      font-size: .26rem;
+      color: #000;
+      margin-left: .22rem;
+      font-weight: 500; }
+  main .pasture4 .topic {
+    width: 100%;
+    height: 4.3rem;
+    margin-top: .32rem;
+    position: relative; }
+    main .pasture4 .topic img {
+      width: 100%;
+      height: 100%; }
+    main .pasture4 .topic .talk {
+      width: 1.77rem;
+      height: .51rem;
+      background: url(../img/ramble/dapei.png) no-repeat;
+      background-size: 100% 100%;
+      line-height: .51rem;
+      padding-left: .26rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: .3rem;
+      color: #fff; }
+  main .pasture4 .poise {
+    width: 100%;
+    padding-right: .22rem;
+    overflow: hidden; }
+    main .pasture4 .poise h3 {
+      margin-top: .21rem;
+      line-height: .61rem;
+      font-size: .37rem;
+      color: #343434; }
+    main .pasture4 .poise p {
+      line-height: .5rem;
+      font-size: .26rem;
+      color: #343434; }
+    main .pasture4 .poise .attitude {
+      line-height: .37rem;
+      margin-top: .16rem; }
+      main .pasture4 .poise .attitude b {
+        float: left;
+        line-height: .37rem;
+        display: flex; }
+        main .pasture4 .poise .attitude b span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture4 .poise .attitude b span:nth-child(1) img {
+            width: .27rem;
+            height: auto;
+            margin-top: .05rem; }
+        main .pasture4 .poise .attitude b span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture4 .poise .attitude i {
+        float: left;
+        line-height: .37rem;
+        display: flex;
+        margin-left: .41rem;
+        font-style: normal; }
+        main .pasture4 .poise .attitude i span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture4 .poise .attitude i span:nth-child(1) img {
+            width: .37rem;
+            height: auto; }
+        main .pasture4 .poise .attitude i span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture4 .poise .attitude em {
+        display: block;
+        height: .37rem;
+        float: right;
+        margin-left: .48rem;
+        width: .38rem;
+        overflow: hidden; }
+        main .pasture4 .poise .attitude em img {
+          width: .57rem;
+          height: .57rem;
+          margin-top: -.1rem;
+          margin-left: -.1rem; }
+main .taka4 {
+  background: #fff;
+  padding: .19rem 0 .37rem 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden; }
+  main .taka4 ul {
+    width: 20.13rem;
+    height: 1.61rem;
+    display: flex; }
+    main .taka4 ul li {
+      width: 3.75rem;
+      height: 1.61rem;
+      border-radius: .1rem;
+      margin-left: .23rem; }
+      main .taka4 ul li a {
+        width: 100%;
+        height: 100%;
+        background: #f0f0f0;
+        display: block; }
+        main .taka4 ul li a .taka-left {
+          width: 1.25rem;
+          height: 1.61rem;
+          float: left; }
+          main .taka4 ul li a .taka-left img {
+            width: 100%;
+            height: 100%; }
+        main .taka4 ul li a .taka-right {
+          width: 2.5rem;
+          height: 1.61rem;
+          padding: .19rem;
+          float: left; }
+          main .taka4 ul li a .taka-right p {
+            line-height: .3rem;
+            font-size: .16rem;
+            color: #4e4e4e; }
+          main .taka4 ul li a .taka-right span {
+            display: block;
+            line-height: .4rem;
+            font-size: .16rem;
+            color: #d62e2c;
+            margin-top: .12rem; }
+main .pasture5 {
+  background: #fff;
+  padding: 0 .3rem;
+  margin-top: .3rem; }
+  main .pasture5 .naoki {
+    line-height: .87rem;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden; }
+    main .pasture5 .naoki b {
+      width: .5rem;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      float: left;
+      height: .86rem;
+      padding: .18rem 0; }
+      main .pasture5 .naoki b img {
+        width: .5rem;
+        height: auto;
+        border-radius: 50%; }
+    main .pasture5 .naoki p {
+      float: left;
+      line-height: .86rem;
+      font-size: .26rem;
+      color: #000;
+      margin-left: .22rem;
+      font-weight: 500; }
+  main .pasture5 .topic {
+    width: 100%;
+    height: 4.3rem;
+    margin-top: .32rem;
+    position: relative; }
+    main .pasture5 .topic img {
+      width: 100%;
+      height: 100%; }
+    main .pasture5 .topic .talk {
+      width: 1.77rem;
+      height: .51rem;
+      background: url(../img/ramble/huati.png) no-repeat;
+      background-size: 100% 100%;
+      line-height: .51rem;
+      padding-left: .26rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: .3rem;
+      color: #fff; }
+  main .pasture5 .poise {
+    width: 100%;
+    padding-right: .22rem;
+    overflow: hidden; }
+    main .pasture5 .poise h3 {
+      margin-top: .21rem;
+      line-height: .61rem;
+      font-size: .37rem;
+      color: #343434; }
+    main .pasture5 .poise p {
+      line-height: .5rem;
+      font-size: .26rem;
+      color: #343434; }
+    main .pasture5 .poise .attitude {
+      line-height: .37rem;
+      margin-top: .16rem; }
+      main .pasture5 .poise .attitude b {
+        float: left;
+        line-height: .37rem;
+        display: flex; }
+        main .pasture5 .poise .attitude b span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture5 .poise .attitude b span:nth-child(1) img {
+            width: .27rem;
+            height: auto;
+            margin-top: .05rem; }
+        main .pasture5 .poise .attitude b span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture5 .poise .attitude i {
+        float: left;
+        line-height: .37rem;
+        display: flex;
+        margin-left: .41rem;
+        font-style: normal; }
+        main .pasture5 .poise .attitude i span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture5 .poise .attitude i span:nth-child(1) img {
+            width: .37rem;
+            height: auto; }
+        main .pasture5 .poise .attitude i span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture5 .poise .attitude em {
+        display: block;
+        height: .37rem;
+        float: right;
+        margin-left: .48rem;
+        width: .38rem;
+        overflow: hidden; }
+        main .pasture5 .poise .attitude em img {
+          width: .57rem;
+          height: .57rem;
+          margin-top: -.1rem;
+          margin-left: -.1rem; }
+main .taka5 {
+  background: #fff;
+  padding: .19rem 0 .37rem 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden; }
+  main .taka5 ul {
+    width: 20.13rem;
+    height: 1.61rem;
+    display: flex; }
+    main .taka5 ul li {
+      width: 3.75rem;
+      height: 1.61rem;
+      border-radius: .1rem;
+      margin-left: .23rem; }
+      main .taka5 ul li a {
+        width: 100%;
+        height: 100%;
+        background: #f0f0f0;
+        display: block; }
+        main .taka5 ul li a .taka-left {
+          width: 1.25rem;
+          height: 1.61rem;
+          float: left; }
+          main .taka5 ul li a .taka-left img {
+            width: 100%;
+            height: 100%; }
+        main .taka5 ul li a .taka-right {
+          width: 2.5rem;
+          height: 1.61rem;
+          padding: .19rem;
+          float: left; }
+          main .taka5 ul li a .taka-right p {
+            line-height: .3rem;
+            font-size: .16rem;
+            color: #4e4e4e; }
+          main .taka5 ul li a .taka-right span {
+            display: block;
+            line-height: .4rem;
+            font-size: .16rem;
+            color: #d62e2c;
+            margin-top: .12rem; }
+main .pasture6 {
+  background: #fff;
+  padding: 0 .3rem;
+  margin-top: .3rem; }
+  main .pasture6 .naoki {
+    line-height: .87rem;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden; }
+    main .pasture6 .naoki b {
+      width: .5rem;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      float: left;
+      height: .86rem;
+      padding: .18rem 0; }
+      main .pasture6 .naoki b img {
+        width: .5rem;
+        height: auto;
+        border-radius: 50%; }
+    main .pasture6 .naoki p {
+      float: left;
+      line-height: .86rem;
+      font-size: .26rem;
+      color: #000;
+      margin-left: .22rem;
+      font-weight: 500; }
+  main .pasture6 .topic {
+    width: 100%;
+    height: 4.3rem;
+    margin-top: .32rem;
+    position: relative; }
+    main .pasture6 .topic img {
+      width: 100%;
+      height: 100%; }
+    main .pasture6 .topic .talk {
+      width: 1.77rem;
+      height: .51rem;
+      background: url(../img/ramble/huati.png) no-repeat;
+      background-size: 100% 100%;
+      line-height: .51rem;
+      padding-left: .26rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: .3rem;
+      color: #fff; }
+  main .pasture6 .poise {
+    width: 100%;
+    padding-right: .22rem;
+    overflow: hidden; }
+    main .pasture6 .poise h3 {
+      margin-top: .21rem;
+      line-height: .61rem;
+      font-size: .37rem;
+      color: #343434; }
+    main .pasture6 .poise p {
+      line-height: .5rem;
+      font-size: .26rem;
+      color: #343434; }
+    main .pasture6 .poise .attitude {
+      line-height: .37rem;
+      margin-top: .16rem; }
+      main .pasture6 .poise .attitude b {
+        float: left;
+        line-height: .37rem;
+        display: flex; }
+        main .pasture6 .poise .attitude b span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture6 .poise .attitude b span:nth-child(1) img {
+            width: .27rem;
+            height: auto;
+            margin-top: .05rem; }
+        main .pasture6 .poise .attitude b span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture6 .poise .attitude i {
+        float: left;
+        line-height: .37rem;
+        display: flex;
+        margin-left: .41rem;
+        font-style: normal; }
+        main .pasture6 .poise .attitude i span:nth-child(1) {
+          display: block;
+          height: .37rem;
+          float: left; }
+          main .pasture6 .poise .attitude i span:nth-child(1) img {
+            width: .37rem;
+            height: auto; }
+        main .pasture6 .poise .attitude i span:nth-child(2) {
+          display: block;
+          height: .37rem;
+          line-height: .37rem;
+          float: left;
+          font-size: .22rem;
+          margin-left: .12rem;
+          font-weight: 100;
+          color: #d5d5d5; }
+      main .pasture6 .poise .attitude em {
+        display: block;
+        height: .37rem;
+        float: right;
+        margin-left: .48rem;
+        width: .38rem;
+        overflow: hidden; }
+        main .pasture6 .poise .attitude em img {
+          width: .57rem;
+          height: .57rem;
+          margin-top: -.1rem;
+          margin-left: -.1rem; }
+main .taka6 {
+  background: #fff;
+  padding: .19rem 0 .37rem 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden; }
+  main .taka6 ul {
+    width: 20.13rem;
+    height: 1.61rem;
+    display: flex; }
+    main .taka6 ul li {
+      width: 3.75rem;
+      height: 1.61rem;
+      border-radius: .1rem;
+      margin-left: .23rem; }
+      main .taka6 ul li a {
+        width: 100%;
+        height: 100%;
+        background: #f0f0f0;
+        display: block; }
+        main .taka6 ul li a .taka-left {
+          width: 1.25rem;
+          height: 1.61rem;
+          float: left; }
+          main .taka6 ul li a .taka-left img {
+            width: 100%;
+            height: 100%; }
+        main .taka6 ul li a .taka-right {
+          width: 2.5rem;
+          height: 1.61rem;
+          padding: .19rem;
+          float: left; }
+          main .taka6 ul li a .taka-right p {
+            line-height: .3rem;
+            font-size: .16rem;
+            color: #4e4e4e; }
+          main .taka6 ul li a .taka-right span {
+            display: block;
+            line-height: .4rem;
+            font-size: .16rem;
+            color: #d62e2c;
+            margin-top: .12rem; }
+
+/*# sourceMappingURL=ramble.css.map */

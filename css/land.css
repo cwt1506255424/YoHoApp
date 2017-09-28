@@ -1,0 +1,141 @@
+.popub {
+  width: 100%;
+  height: 100%;
+  background: url(../img/admin/blackboard.png) no-repeat;
+  position: fixed;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 13; }
+  .popub .top {
+    height: .88rem; }
+    .popub .top a {
+      display: block;
+      width: 1.40rem;
+      height: .88rem;
+      float: left; }
+      .popub .top a img {
+        width: .61rem;
+        height: .61rem;
+        margin: .14rem auto 0; }
+    .popub .top span {
+      display: block;
+      width: 1.11rem;
+      height: .62rem;
+      float: right;
+      margin: .14rem .4rem 0 0;
+      border: 1px solid #beb6b7;
+      line-height: .58rem;
+      text-align: center;
+      border-radius: .31rem;
+      font-size: .26rem;
+      color: #fff; }
+  .popub .family {
+    margin-top: .5rem;
+    height: 2.18rem;
+    width: 100%; }
+    .popub .family img {
+      width: 3.49rem;
+      height: 2.18rem;
+      margin: 0 auto; }
+  .popub .yohoBy {
+    height: .6rem;
+    margin-top: .41rem;
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+    .popub .yohoBy span {
+      display: block;
+      font-size: .26rem;
+      color: #ddd2d3;
+      line-height: .6rem; }
+    .popub .yohoBy span:nth-child(2) img {
+      width: .25rem;
+      height: .25rem;
+      margin: .17rem; }
+  .popub .iphone {
+    width: 90%;
+    margin: .73rem auto .26rem;
+    border: 1px solid #bcbbbc;
+    border-radius: .1rem;
+    height: .82rem;
+    padding-left: 1rem;
+    background: url(../img/admin/y.png) no-repeat 0.5rem 0.2rem #919091;
+    background-size: .33rem .41rem;
+    display: flex; }
+    .popub .iphone input {
+      display: block;
+      flex: 1;
+      border: none;
+      background: none; }
+    .popub .iphone input::placeholder {
+      color: #d0cfcf; }
+  .popub .password {
+    width: 90%;
+    margin: 0rem auto .26rem;
+    border: 1px solid #bcbbbc;
+    border-radius: .1rem;
+    height: .82rem;
+    padding-left: .5rem;
+    padding-right: .8rem;
+    background: url(../img/admin/biyan.png) no-repeat 95% 0.25rem #919091;
+    background-size: .39rem .27rem;
+    display: flex; }
+    .popub .password input {
+      display: block;
+      flex: 1;
+      border: none;
+      background: none; }
+    .popub .password input::placeholder {
+      color: #d0cfcf; }
+  .popub .load {
+    display: block;
+    width: 90%;
+    margin: 0rem auto .26rem;
+    border: none;
+    border-radius: .1rem;
+    height: .82rem;
+    background: #cdcdcd;
+    color: #fff;
+    line-height: .82rem;
+    text-align: center;
+    font-size: .3rem; }
+  .popub .overseas {
+    width: 90%;
+    margin: 0 auto;
+    height: .44rem; }
+    .popub .overseas ul {
+      width: 100%;
+      height: .44rem;
+      display: flex;
+      justify-content: space-between; }
+      .popub .overseas ul li {
+        height: .44rem; }
+        .popub .overseas ul li a {
+          display: block;
+          line-height: .44rem;
+          font-size: .26rem;
+          color: #fff;
+          text-decoration: none; }
+  .popub .tubiao {
+    width: 100%;
+    height: .92rem;
+    margin-top: 2.18rem;
+    margin-bottom: .8rem; }
+    .popub .tubiao ul {
+      width: 100%;
+      display: flex; }
+      .popub .tubiao ul li {
+        height: .92rem;
+        flex: 1; }
+        .popub .tubiao ul li a {
+          width: .92rem;
+          height: .92rem;
+          display: block;
+          margin: 0 auto; }
+          .popub .tubiao ul li a img {
+            width: 100%;
+            height: 100%; }
+
+/*# sourceMappingURL=land.css.map */

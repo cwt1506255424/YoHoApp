@@ -1,0 +1,245 @@
+body, h1, h2, h3, h4, h5, h6, p, a, img, input, ul, li, ol, dl, dt, dd, figure, figcaption {
+  padding: 0;
+  margin: 0; }
+
+* {
+  box-sizing: border-box; }
+
+header, footer, article, section, aside, nav, figure, figcaption, main, summary, details {
+  display: block; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  display: block;
+  border: 0; }
+
+input {
+  outline: none; }
+
+body, html {
+  height: 100%;
+  background: #efefef; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font/iconfont.eot");
+  src: url("../font/iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont.woff") format("woff"), url("../font/iconfont.ttf") format("truetype"), url("../font/iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.all {
+  transition: all 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: .88rem;
+  background: #3e3e3e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header button {
+    height: 100%;
+    width: .88rem;
+    border: none;
+    background: #3e3e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header button .iconfont {
+      color: #fff;
+      font-size: .43rem; }
+  header .search {
+    height: .62rem;
+    background: #f0f0f0;
+    width: 68%;
+    border-radius: .04rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .search span {
+      width: .64rem;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header .search span i {
+        font-size: .4rem;
+        color: #808080; }
+    header .search span:nth-child(1) i {
+      font-size: .3rem;
+      color: #808080;
+      font-weight: 300; }
+    header .search input {
+      flex: 1;
+      border: none;
+      height: 100%;
+      background: #f0f0f0;
+      font-size: .3rem;
+      font-weight: 600; }
+    header .search input::placeholder {
+      color: #838383; }
+
+main {
+  flex: 1;
+  width: 100%;
+  overflow-x: hidden; }
+
+footer {
+  height: 1rem;
+  border-top: 2px solid #e3e3e3;
+  background: #fff; }
+  footer ul {
+    display: flex;
+    width: 100%; }
+    footer ul li {
+      flex: 1;
+      height: .83rem; }
+      footer ul li a {
+        width: 100%;
+        height: 100%;
+        text-decoration: none; }
+        footer ul li a span {
+          display: block;
+          height: .6rem;
+          text-align: center;
+          color: #b0b0b0; }
+          footer ul li a span img {
+            height: .6rem;
+            width: auto;
+            margin: 0 auto; }
+        footer ul li a p {
+          height: .38rem;
+          text-align: center;
+          font-size: .14rem;
+          color: #b0b0b0; }
+    footer ul li:nth-child(1) a i {
+      color: #444; }
+    footer ul li:nth-child(1) a p {
+      color: #444; }
+
+.sidedoor {
+  width: 66.6667%;
+  height: 100%;
+  background: #fff;
+  overflow-y: scroll;
+  box-shadow: 3px 0 3px #444;
+  position: absolute;
+  top: 0;
+  left: -68%;
+  z-index: 11;
+  transition: all 0.5s; }
+  .sidedoor ul {
+    width: 100%;
+    padding-top: .46rem; }
+    .sidedoor ul li {
+      width: 100%;
+      border-bottom: 1px solid #e0e0e0;
+      padding: .39rem .35rem .39rem .2rem;
+      line-height: .5rem;
+      overflow: hidden; }
+      .sidedoor ul li a {
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        display: block;
+        color: #444; }
+        .sidedoor ul li a i {
+          display: block;
+          line-height: .5rem;
+          width: .55rem;
+          font-size: .48rem;
+          text-align: center;
+          float: left; }
+        .sidedoor ul li a b {
+          display: block;
+          line-height: .5rem;
+          padding: 0 .23rem;
+          text-align: center;
+          font-size: .33rem;
+          font-weight: 600;
+          float: left; }
+        .sidedoor ul li a span {
+          padding-top: .14rem;
+          display: block;
+          line-height: .36rem;
+          float: left;
+          font-size: .18rem; }
+    .sidedoor ul li:nth-child(1) {
+      border-top: 1px solid #e0e0e0;
+      background: #444; }
+      .sidedoor ul li:nth-child(1) a {
+        color: #fff; }
+    .sidedoor ul li:nth-child(5) {
+      height: .2rem;
+      background: #f0f0f0;
+      padding: 0; }
+    .sidedoor ul li:nth-child(6), .sidedoor ul li:nth-child(7), .sidedoor ul li:nth-child(8) {
+      border: none;
+      padding: .3rem .34rem 0rem .3rem;
+      line-height: .4rem; }
+      .sidedoor ul li:nth-child(6) a, .sidedoor ul li:nth-child(7) a, .sidedoor ul li:nth-child(8) a {
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        display: block;
+        color: #444;
+        display: flex; }
+        .sidedoor ul li:nth-child(6) a i, .sidedoor ul li:nth-child(7) a i, .sidedoor ul li:nth-child(8) a i {
+          display: block;
+          line-height: .4rem;
+          width: .5rem;
+          font-size: .35rem;
+          text-align: center; }
+        .sidedoor ul li:nth-child(6) a .sides, .sidedoor ul li:nth-child(7) a .sides, .sidedoor ul li:nth-child(8) a .sides {
+          border-bottom: 1px solid #e0e0e0;
+          padding-bottom: .3rem;
+          flex: 1;
+          margin-left: .23rem; }
+          .sidedoor ul li:nth-child(6) a .sides b, .sidedoor ul li:nth-child(7) a .sides b, .sidedoor ul li:nth-child(8) a .sides b {
+            display: block;
+            line-height: .4rem;
+            padding: 0;
+            padding-right: .2rem;
+            text-align: center;
+            font-size: .25rem;
+            font-weight: 600;
+            float: left; }
+          .sidedoor ul li:nth-child(6) a .sides span, .sidedoor ul li:nth-child(7) a .sides span, .sidedoor ul li:nth-child(8) a .sides span {
+            padding-top: .1rem;
+            display: block;
+            line-height: .26rem;
+            float: left;
+            font-size: .16rem; }
+          .sidedoor ul li:nth-child(6) a .sides i, .sidedoor ul li:nth-child(7) a .sides i, .sidedoor ul li:nth-child(8) a .sides i {
+            display: block;
+            line-height: .4rem;
+            font-size: .53rem;
+            float: right; }
+
+.sideon {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: #000;
+  z-index: 10;
+  opacity: 0.5;
+  display: none;
+  transition: all 0.5s; }
+
+/*# sourceMappingURL=public.css.map */

@@ -1,0 +1,345 @@
+header {
+  height: 1.76rem;
+  display: block; }
+  header .header {
+    width: 100%;
+    height: .88rem;
+    background: #3e3e3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .header button {
+      height: 100%;
+      width: .88rem;
+      border: none;
+      background: #3e3e3e;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header .header button .iconfont {
+        color: #fff;
+        font-size: .43rem; }
+    header .header ul {
+      width: 47%;
+      display: flex;
+      justify-content: space-between; }
+      header .header ul li {
+        width: .9rem;
+        height: .88rem; }
+        header .header ul li a {
+          display: block;
+          text-decoration: none;
+          color: #fff;
+          font-size: .3rem;
+          line-height: .88rem;
+          text-align: center; }
+      header .header ul li:nth-child(1) {
+        border-bottom: .04rem solid #fff; }
+  header .nav1 {
+    height: .88rem;
+    border-bottom: 1px solid #e5e5e5;
+    padding: .21rem 0;
+    background: #fff; }
+    header .nav1 ul {
+      width: 100%;
+      display: flex; }
+      header .nav1 ul li {
+        flex: 1;
+        height: .45rem; }
+        header .nav1 ul li a {
+          display: block;
+          width: 100%;
+          line-height: .45rem;
+          text-decoration: none;
+          font-size: .22rem;
+          color: #b8b8b8;
+          text-align: center;
+          border-right: 1px solid #e5e5e5; }
+      header .nav1 ul li:nth-child(1) a {
+        font-size: .32rem;
+        color: #4d4d4d; }
+      header .nav1 ul li:nth-child(4) a {
+        border-right: none; }
+
+main .s1 {
+  width: 100%;
+  height: 100%; }
+  main .s1 .nav1-1 {
+    transition: all .5s;
+    width: 100%;
+    background: #fff;
+    float: left;
+    height: 100%;
+    overflow: auto; }
+    main .s1 .nav1-1 ul {
+      width: 100%; }
+      main .s1 .nav1-1 ul li {
+        width: 100%;
+        height: 1.18rem; }
+        main .s1 .nav1-1 ul li a {
+          width: 100%;
+          height: 1.18rem;
+          display: flex;
+          text-decoration: none; }
+          main .s1 .nav1-1 ul li a i {
+            display: block;
+            width: 1.6rem; }
+            main .s1 .nav1-1 ul li a i img {
+              width: .6rem;
+              height: .6rem;
+              margin: .29rem auto 0; }
+          main .s1 .nav1-1 ul li a .right {
+            flex: 1;
+            height: 1.18rem;
+            border-bottom: .02rem solid #e5e5e5; }
+            main .s1 .nav1-1 ul li a .right h3 {
+              font-size: .31rem;
+              color: #444;
+              line-height: 1.16rem;
+              font-weight: 600;
+              float: left; }
+            main .s1 .nav1-1 ul li a .right span {
+              display: none;
+              width: .12rem;
+              height: .23rem;
+              float: right;
+              margin-top: .5rem; }
+              main .s1 .nav1-1 ul li a .right span img {
+                width: 100%;
+                height: 100%; }
+  main .s1 .nav1-2 {
+    transition: all .5s;
+    display: none;
+    float: left;
+    font-size: .2rem;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background: #f4f4f4;
+    padding-left: .1rem; }
+    main .s1 .nav1-2 ul {
+      width: 100%; }
+      main .s1 .nav1-2 ul li {
+        height: .88rem;
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+        padding-left: .2rem; }
+        main .s1 .nav1-2 ul li a {
+          width: 100%;
+          display: block;
+          line-height: .87rem;
+          font-size: .26rem;
+          color: #999;
+          text-decoration: none; }
+main .s2 {
+  width: 100%;
+  height: 100%; }
+  main .s2 .nav1-1 {
+    transition: all .5s;
+    width: 100%;
+    background: #fff;
+    float: left;
+    height: 100%;
+    overflow: auto; }
+    main .s2 .nav1-1 ul {
+      width: 100%; }
+      main .s2 .nav1-1 ul li {
+        width: 100%;
+        height: 1.18rem; }
+        main .s2 .nav1-1 ul li a {
+          width: 100%;
+          height: 1.18rem;
+          display: flex;
+          text-decoration: none; }
+          main .s2 .nav1-1 ul li a i {
+            display: block;
+            width: 1.6rem; }
+            main .s2 .nav1-1 ul li a i img {
+              width: .6rem;
+              height: .6rem;
+              margin: .29rem auto 0; }
+          main .s2 .nav1-1 ul li a .right {
+            flex: 1;
+            height: 1.18rem;
+            border-bottom: .02rem solid #e5e5e5; }
+            main .s2 .nav1-1 ul li a .right h3 {
+              font-size: .31rem;
+              color: #444;
+              line-height: 1.16rem;
+              font-weight: 600;
+              float: left; }
+            main .s2 .nav1-1 ul li a .right span {
+              display: none;
+              width: .12rem;
+              height: .23rem;
+              float: right;
+              margin-top: .5rem; }
+              main .s2 .nav1-1 ul li a .right span img {
+                width: 100%;
+                height: 100%; }
+  main .s2 .nav1-2 {
+    transition: all .5s;
+    display: none;
+    float: left;
+    font-size: .2rem;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background: #f4f4f4;
+    padding-left: .1rem; }
+    main .s2 .nav1-2 ul {
+      width: 100%; }
+      main .s2 .nav1-2 ul li {
+        height: .88rem;
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+        padding-left: .2rem; }
+        main .s2 .nav1-2 ul li a {
+          width: 100%;
+          display: block;
+          line-height: .87rem;
+          font-size: .26rem;
+          color: #999;
+          text-decoration: none; }
+main .s3 {
+  width: 100%;
+  height: 100%; }
+  main .s3 .nav1-1 {
+    transition: all .5s;
+    width: 100%;
+    background: #fff;
+    float: left;
+    height: 100%;
+    overflow: auto; }
+    main .s3 .nav1-1 ul {
+      width: 100%; }
+      main .s3 .nav1-1 ul li {
+        width: 100%;
+        height: 1.18rem; }
+        main .s3 .nav1-1 ul li a {
+          width: 100%;
+          height: 1.18rem;
+          display: flex;
+          text-decoration: none; }
+          main .s3 .nav1-1 ul li a i {
+            display: block;
+            width: 1.6rem; }
+            main .s3 .nav1-1 ul li a i img {
+              width: .6rem;
+              height: .6rem;
+              margin: .29rem auto 0; }
+          main .s3 .nav1-1 ul li a .right {
+            flex: 1;
+            height: 1.18rem;
+            border-bottom: .02rem solid #e5e5e5; }
+            main .s3 .nav1-1 ul li a .right h3 {
+              font-size: .31rem;
+              color: #444;
+              line-height: 1.16rem;
+              font-weight: 600;
+              float: left; }
+            main .s3 .nav1-1 ul li a .right span {
+              display: none;
+              width: .12rem;
+              height: .23rem;
+              float: right;
+              margin-top: .5rem; }
+              main .s3 .nav1-1 ul li a .right span img {
+                width: 100%;
+                height: 100%; }
+  main .s3 .nav1-2 {
+    transition: all .5s;
+    display: none;
+    float: left;
+    font-size: .2rem;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background: #f4f4f4;
+    padding-left: .1rem; }
+    main .s3 .nav1-2 ul {
+      width: 100%; }
+      main .s3 .nav1-2 ul li {
+        height: .88rem;
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+        padding-left: .2rem; }
+        main .s3 .nav1-2 ul li a {
+          width: 100%;
+          display: block;
+          line-height: .87rem;
+          font-size: .26rem;
+          color: #999;
+          text-decoration: none; }
+main .s4 {
+  width: 100%;
+  height: 100%; }
+  main .s4 .nav1-1 {
+    transition: all .5s;
+    width: 100%;
+    background: #fff;
+    float: left;
+    height: 100%;
+    overflow: auto; }
+    main .s4 .nav1-1 ul {
+      width: 100%; }
+      main .s4 .nav1-1 ul li {
+        width: 100%;
+        height: 1.18rem; }
+        main .s4 .nav1-1 ul li a {
+          width: 100%;
+          height: 1.18rem;
+          display: flex;
+          text-decoration: none; }
+          main .s4 .nav1-1 ul li a i {
+            display: block;
+            width: 1.6rem; }
+            main .s4 .nav1-1 ul li a i img {
+              width: .6rem;
+              height: .6rem;
+              margin: .29rem auto 0; }
+          main .s4 .nav1-1 ul li a .right {
+            flex: 1;
+            height: 1.18rem;
+            border-bottom: .02rem solid #e5e5e5; }
+            main .s4 .nav1-1 ul li a .right h3 {
+              font-size: .31rem;
+              color: #444;
+              line-height: 1.16rem;
+              font-weight: 600;
+              float: left; }
+            main .s4 .nav1-1 ul li a .right span {
+              display: none;
+              width: .12rem;
+              height: .23rem;
+              float: right;
+              margin-top: .5rem; }
+              main .s4 .nav1-1 ul li a .right span img {
+                width: 100%;
+                height: 100%; }
+  main .s4 .nav1-2 {
+    transition: all .5s;
+    display: none;
+    float: left;
+    font-size: .2rem;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background: #f4f4f4;
+    padding-left: .1rem; }
+    main .s4 .nav1-2 ul {
+      width: 100%; }
+      main .s4 .nav1-2 ul li {
+        height: .88rem;
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+        padding-left: .2rem; }
+        main .s4 .nav1-2 ul li a {
+          width: 100%;
+          display: block;
+          line-height: .87rem;
+          font-size: .26rem;
+          color: #999;
+          text-decoration: none; }
+
+/*# sourceMappingURL=classify.css.map */
