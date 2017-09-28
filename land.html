@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>land</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    var clientHeight = docEl.clientHeight;
+                    if (!clientWidth) return;
+                    if(clientHeight>clientWidth){
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientHeight / 750) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/land.css">
+</head>
+<body>
+    <div class="popub">
+        <div class="top">
+            <a href="index.html"><img src="img/admin/guanbi.png"></a>
+            <span>注册</span>
+        </div>
+        <div class="family">
+            <img src="img/admin/family4.png">
+        </div>
+        <div class="yohoBy">
+            <span>Yoho!Family账号可登录Yoho!Buy有货</span>
+            <span><img src="img/admin/wenhao.png"></span>
+        </div>
+        <div class="iphone">
+            <input type="text" placeholder="手机号/邮箱">
+        </div>
+        <div class="password">
+            <input type="password" placeholder="密码">
+        </div>
+        <a class="load" href="index.html">登录</a>
+        <div class="overseas">
+            <ul>
+                <li><a href="#">海外手机</a></li>
+                <li><a href="#">快速登录</a></li>
+                <li><a href="#">忘记密码</a></li>
+            </ul>
+        </div>
+        <div class="tubiao">
+            <ul>
+                <li><a href="#"><img src="img/admin/qq_icon.png"></a></li>
+                <li><a href="#"><img src="img/admin/wechat_icon.png"></a></li>
+                <li><a href="#"><img src="img/admin/weibo_icon.png"></a></li>
+                <li><a href="#"><img src="img/admin/alipay_icon.png"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

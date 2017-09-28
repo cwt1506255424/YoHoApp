@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>YoHo</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    var clientHeight = docEl.clientHeight;
+                    if (!clientWidth) return;
+                    if(clientHeight>clientWidth){
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientHeight / 750) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+<div class="all" id="all">
+    <header>
+        <button id="unwind"><i class="iconfont">&#xe602;</i></button>
+        <div class="search">
+            <span><i class="iconfont">&#xe60a;</i></span>
+            <input type="text" placeholder="adidas Originals">
+            <span><i class="iconfont">&#xe672;</i></span>
+        </div>
+        <button><i class="iconfont">&#xe641;</i></button>
+    </header>
+    <main>
+        <div class="swiper-container flash1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/index/swiper1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/index/swiper2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/index/swiper3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/index/swiper4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/index/swiper5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/index/swiper6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/index/swiper7.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="breed">
+            <ul>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre1.png">
+                        </b>
+                        <p>新品到着</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre2.png">
+                        </b>
+                        <p>潮流优选</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre3.png">
+                        </b>
+                        <p>限时劵</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre4.png">
+                        </b>
+                        <p>明星原创</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre5.png">
+                        </b>
+                        <p>全部分类</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre6.png">
+                        </b>
+                        <p>人气搭配</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre7.png">
+                        </b>
+                        <p>潮品话题</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre8.png">
+                        </b>
+                        <p>Find:好货</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre9.png">
+                        </b>
+                        <p>限定发售</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>
+                            <img src="img/index/bre10.png">
+                        </b>
+                        <p>折扣专区</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="summer">
+            <img src="img/index/summer1.jpg">
+        </div>
+        <div class="Vans">
+            <img src="img/index/summer2.jpg">
+        </div>
+        <div class="tag1">
+            新人专享
+            <i class="iconfont">&#xe655;</i>
+        </div>
+        <div class="fashion">
+            <img src="img/index/fashion.jpg">
+        </div>
+        <div class="scrollTag">
+            <div class="tag-left">
+                <img src="img/index/News.png">
+                <span>新<br>人<br>专<br>享</span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="tags-left">
+                            <img src="img/index/scroll1.jpg">
+                        </div>
+                        <div class="tags-right">
+                            <p>ACROSS!<br>STAY系列...</p>
+                            <h3>￥294.00</h3>
+                            <b>立即购买<i class="iconfont">&#xe6d7;</i></b>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="tags-left">
+                            <img src="img/index/scroll2.jpg">
+                        </div>
+                        <div class="tags-right">
+                            <p>AK CLUB<br>军事复古...</p>
+                            <h3>￥294.00</h3>
+                            <b>立即购买<i class="iconfont">&#xe6d7;</i></b>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="tags-left">
+                            <img src="img/index/scroll3.jpg">
+                        </div>
+                        <div class="tags-right">
+                            <p>ACROSS!<br>STAY系列...</p>
+                            <h3>￥294.00</h3>
+                            <b>立即购买<i class="iconfont">&#xe6d7;</i></b>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="tags-left">
+                            <img src="img/index/scroll4.jpg">
+                        </div>
+                        <div class="tags-right">
+                            <p>ACROSS!<br>STAY系列...</p>
+                            <h3>￥294.00</h3>
+                            <b>立即购买<i class="iconfont">&#xe6d7;</i></b>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="tags-left">
+                            <img src="img/index/scroll5.jpg">
+                        </div>
+                        <div class="tags-right">
+                            <p>ACROSS!<br>STAY系列...</p>
+                            <h3>￥294.00</h3>
+                            <b>立即购买<i class="iconfont">&#xe6d7;</i></b>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="tags-left">
+                            <img src="img/index/scroll6.jpg">
+                        </div>
+                        <div class="tags-right">
+                            <p>ACROSS!<br>STAY系列...</p>
+                            <h3>￥294.00</h3>
+                            <b>立即购买<i class="iconfont">&#xe6d7;</i></b>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="tags-left">
+                            <img src="img/index/scroll7.jpg">
+                        </div>
+                        <div class="tags-right">
+                            <p>ACROSS!<br>STAY系列...</p>
+                            <h3>￥294.00</h3>
+                            <b>立即购买<i class="iconfont">&#xe6d7;</i></b>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="tags-left">
+                            <img src="img/index/scroll8.jpg">
+                        </div>
+                        <div class="tags-right">
+                            <p>ACROSS!<br>STAY系列...</p>
+                            <h3>￥294.00</h3>
+                            <b>立即购买<i class="iconfont">&#xe6d7;</i></b>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="category">热门品类</div>
+        <div class="Hot">
+            <ul>
+                <li><a href="#"><img src="img/index/hot1.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot2.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot3.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot4.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot5.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot6.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot7.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot8.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot9.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot10.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot11.jpg"></a></li>
+                <li><a href="#"><img src="img/index/hot12.jpg"></a></li>
+            </ul>
+        </div>
+        <div class="effect">热门品牌</div>
+        <div class="brand">
+            <ul>
+                <li><a href="#"><img src="img/index/brand1.jpg"></a></li>
+                <li><a href="#"><img src="img/index/brand2.jpg"></a></li>
+                <li><a href="#"><img src="img/index/brand3.jpg"></a></li>
+                <li><a href="#"><img src="img/index/brand4.jpg"></a></li>
+                <li><a href="#"><img src="img/index/brand5.jpg"></a></li>
+                <li><a href="#"><img src="img/index/brand6.jpg"></a></li>
+                <li><a href="#"><img src="img/index/brand7.png"></a></li>
+            </ul>
+        </div>
+        <div class="empty"></div>
+        <div class="swiper-container flash2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/index/flash1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/index/flash2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/index/flash3.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="week">一周精选</div>
+        <div class="Select">
+            <div class="Sel-left">
+                <a href="#">
+                    <img src="img/index/time1.png">
+                </a>
+            </div>
+            <div class="Sel-right">
+                <ul>
+                    <li><a href="#"><img src="img/index/time2.png"></a></li>
+                    <li><a href="#"><img src="img/index/time3.png"></a></li>
+                    <li><a href="#"><img src="img/index/time4.png"></a></li>
+                    <li><a href="#"><img src="img/index/time5.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="tag2">
+            潮品·话题
+            <i class="iconfont">&#xe655;</i>
+        </div>
+        <div class="swiper-container flash3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/match1.png">
+                        </b>
+                        <p>一双百搭款的小白鞋都是各大媒体争相润笔的...</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/match2.png">
+                        </b>
+                        <p>Beats耳机随心移动，带给你一场视听盛宴~</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/match3.png">
+                        </b>
+                        <p>这双比伯GD爱死了的VANS，就差吴亦凡上脚...</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/match4.png">
+                        </b>
+                        <p>嘻嘻~教你徒手测罩杯吧！</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/match5.png">
+                        </b>
+                        <p>最近流行玩火上身，你造吗？</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="slider-bg"></div>
+        </div>
+        <div class="tie-in">
+            人气搭配
+            <i class="iconfont">&#xe655;</i>
+        </div>
+        <div class="swiper-container flash4">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/tie1.png">
+                        </b>
+                        <p>一双百搭款的小白鞋都是各大媒体争相润笔的...</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/tie2.png">
+                        </b>
+                        <p>Beats耳机随心移动，带给你一场视听盛宴~</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/tie3.png">
+                        </b>
+                        <p>这双比伯GD爱死了的VANS，就差吴亦凡上脚...</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/tie4.png">
+                        </b>
+                        <p>嘻嘻~教你徒手测罩杯吧！</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <b>
+                            <img src="img/index/tie5.png">
+                        </b>
+                        <p>最近流行玩火上身，你造吗？</p>
+                        <span><i class="iconfont">&#xe6d5;</i> 8月17日 20:10</span>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="slider-bg"></div>
+        </div>
+        <div class="tag3">
+            人气推荐
+            <i class="iconfont">&#xe655;</i>
+        </div>
+        <div class="attitude"><img src="img/index/attitude.jpg"></div>
+        <div class="scrollTag2">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young1.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young2.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young3.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young4.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young5.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young6.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young7.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young8.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young9.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young10.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young11.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young12.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young13.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young14.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young15.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young16.jpg"></div>
+                        <span>￥499.00</span>
+                        <p>178人<br>正在浏览</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="tag4">
+            新品到着
+            <i class="iconfont">&#xe655;</i>
+        </div>
+        <div class="arrivals"><img src="img/index/arrivals.png"></div>
+        <div class="scrollTag3">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young9.jpg"></div>
+                        <span>￥129.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young10.jpg"></div>
+                        <span>￥129.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young11.jpg"></div>
+                        <span>￥129.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young12.jpg"></div>
+                        <span>￥129.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young13.jpg"></div>
+                        <span>￥129.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young14.jpg"></div>
+                        <span>￥129.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young15.jpg"></div>
+                        <span>￥129.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/young16.jpg"></div>
+                        <span>￥129.00</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="tag5">潮流服饰</div>
+        <div class="Teeb">
+            <ul>
+                <li><a href="#"><img src="img/index/teeb1.png"></a></li>
+                <li><a href="#"><img src="img/index/teeb2.png"></a></li>
+                <li><a href="#"><img src="img/index/teeb3.png"></a></li>
+                <li><a href="#"><img src="img/index/teeb4.png"></a></li>
+                <li><a href="#"><img src="img/index/teeb5.png"></a></li>
+                <li><a href="#"><img src="img/index/teeb6.png"></a></li>
+                <li><a href="#"><img src="img/index/teeb7.png"></a></li>
+                <li><a href="#"><img src="img/index/teeb8.png"></a></li>
+            </ul>
+        </div>
+        <div class="tag6">特色好货</div>
+        <div class="original">
+            <ul>
+                <li><a href="#"><img src="img/index/original1.png"></a></li>
+                <li><a href="#"><img src="img/index/original2.png"></a></li>
+                <li><a href="#"><img src="img/index/original3.png"></a></li>
+                <li><a href="#"><img src="img/index/original4.png"></a></li>
+            </ul>
+        </div>
+        <div class="tag7">你可能会喜欢</div>
+        <div class="MoGao">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/mogao1.png"></div>
+                        <p>mogao 拼接水洗破洞牛仔裤</p>
+                        <span>￥399.00<i class="iconfont">&#xe655;</i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/mogao2.png"></div>
+                        <p>STAYREAL「在场证明」10周年音乐派对@YOHOOD 2017</p>
+                        <span>￥680.00<i class="iconfont">&#xe655;</i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/mogao3.png"></div>
+                        <p>YOHOOD 2017 全球潮流新品嘉年华套票</p>
+                        <span>￥380.00<i class="iconfont">&#xe655;</i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/mogao4.png"></div>
+                        <p>YOHOOD  2017 全球潮流新品嘉年华套票</p>
+                        <span>￥580.00<i class="iconfont">&#xe655;</i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/mogao5.png"></div>
+                        <p>viishow 迷彩斜条纹户外夹克</p>
+                        <span>￥380.00 <b>￥928.00</b><i class="iconfont">&#xe655;</i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/mogao6.png"></div>
+                        <p>Arubafootwear 纯色织带休闲女子凉鞋</p>
+                        <span>￥580.00 <b>￥299.00</b><i class="iconfont">&#xe655;</i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/mogao7.png"></div>
+                        <p>DEEP 满印花LOGOT恤</p>
+                        <span>￥323.00 <b>￥368.00</b><i class="iconfont">&#xe655;</i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="scl-t"><img src="img/index/mogao8.png"></div>
+                        <p>MADGIRL TSHIRT DRESS</p>
+                        <span>￥580.00<i class="iconfont">&#xe655;</i></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="#">
+                    <span><img src="img/index1.png"></span>
+                    <p style="color:#444;">首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="classify.html">
+                    <span><img src="img/gary2.png"></span>
+                    <p>分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="ramble.html">
+                    <span><img src="img/rocket2.png"></span>
+                    <p>逛</p>
+                </a>
+            </li>
+            <li>
+                <a href="cart.html">
+                    <span><img src="img/cart2.png"></span>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="admin.html">
+                    <span><img src="img/admin2.png"></span>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+<div class="sidedoor" id="sidedoor">
+    <ul>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe648;</i>
+                <b>男生</b>
+                <span>BOYS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe685;</i>
+                <b>女生</b>
+                <span>GIRLS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe6f7;</i>
+                <b>潮童</b>
+                <span>KIDS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe634;</i>
+                <b>创意生活</b>
+                <span>LIFE STYLE</span>
+            </a>
+        </li>
+        <li class="empty"></li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe633;</i>
+                <div class="sides">
+                    <b>潮流优选</b>
+                    <span>BLK</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe61e;</i>
+                <div class="sides">
+                    <b>明星原创</b>
+                    <span>STAR</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe603;</i>
+                <div class="sides">
+                    <b>逛</b>
+                    <span>TRENDFINDER</span>
+                    <i class="iconfont">&#xe6d7;</i>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="sideon" id="sideon"></div>
+<div class="back-top"><img src="img/huidaodingbu.png"></div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/index.js"></script>

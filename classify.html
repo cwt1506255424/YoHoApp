@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>classify</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    var clientHeight = docEl.clientHeight;
+                    if (!clientWidth) return;
+                    if(clientHeight>clientWidth){
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientHeight / 750) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/classify.css">
+</head>
+<body>
+<div class="all" id="all">
+    <header>
+        <div class="header">
+            <button id="unwind"><i class="iconfont">&#xe602;</i></button>
+            <ul>
+                <li>
+                    <a href="#">品类</a>
+                </li>
+                <li>
+                    <a href="#">品牌</a>
+                </li>
+                <li>
+                    <a href="#">关注</a>
+                </li>
+            </ul>
+            <button class="bts"></button>
+        </div>
+        <div class="nav1">
+            <ul>
+                <li>
+                    <a href="#" class="sp1">Boy</a>
+                </li>
+                <li>
+                    <a href="#" class="sp1">Girl</a>
+                </li>
+                <li>
+                    <a href="#" class="sp1">Kid</a>
+                </li>
+                <li>
+                    <a href="#" class="sp1">Lifestyle</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="contain s1">
+            <div class="nav1-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/shangyi.png"></i>
+                            <div class="right">
+                                <h3>上衣</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/kuzhuang.png"></i>
+                            <div class="right">
+                                <h3>裤装</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/xiexue.png"></i>
+                            <div class="right">
+                                <h3>鞋靴</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/baolei.png"></i>
+                            <div class="right">
+                                <h3>包类</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/fupei.png"></i>
+                            <div class="right">
+                                <h3>服配</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/neiyi.png"></i>
+                            <div class="right">
+                                <h3>内衣</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/meizhuang.png"></i>
+                            <div class="right">
+                                <h3>美妆</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/shuma.png"></i>
+                            <div class="right">
+                                <h3>数码3C</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>玩具礼品</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>成人用品</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>文具杂志</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>厨具餐具</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>运动装备</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>居家生活</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>生活电器</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav1-2">
+                <ul>
+                    <li>
+                        <a>全部上衣</a>
+                    </li>
+                    <li>
+                        <a>衬衫</a>
+                    </li>
+                    <li>
+                        <a>卫衣</a>
+                    </li>
+                    <li>
+                        <a>夹克</a>
+                    </li>
+                    <li>
+                        <a>T恤</a>
+                    </li>
+                    <li>
+                        <a>防风外套</a>
+                    </li>
+                    <li>
+                        <a>POLO</a>
+                    </li>
+                    <li>
+                        <a>背心</a>
+                    </li>
+                    <li>
+                        <a>皮衣</a>
+                    </li>
+                    <li>
+                        <a>大衣</a>
+                    </li>
+                    <li>
+                        <a>风衣</a>
+                    </li>
+                    <li>
+                        <a>毛衣</a>
+                    </li>
+                    <li>
+                        <a>针织衫</a>
+                    </li>
+                    <li>
+                        <a>西装</a>
+                    </li>
+                    <li>
+                        <a>马甲</a>
+                    </li>
+                    <li>
+                        <a>套装</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contain s2">
+            <div class="nav1-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/shangyi.png"></i>
+                            <div class="right">
+                                <h3>上衣</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/qiongzhuang.png"></i>
+                            <div class="right">
+                                <h3>裙装</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/kuzhuang.png"></i>
+                            <div class="right">
+                                <h3>裤装</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/xiexue.png"></i>
+                            <div class="right">
+                                <h3>鞋靴</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/baolei.png"></i>
+                            <div class="right">
+                                <h3>包类</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/fupei.png"></i>
+                            <div class="right">
+                                <h3>服配</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/neiyi.png"></i>
+                            <div class="right">
+                                <h3>内衣/居家服</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/meizhuang.png"></i>
+                            <div class="right">
+                                <h3>美妆/个护</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>数码3C</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>居家</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>玩具礼品</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>文具杂志</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>餐具厨具</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>生活电器</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>运动装备</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav1-2">
+                <ul>
+                    <li>
+                        <a>全部上衣</a>
+                    </li>
+                    <li>
+                        <a>衬衫</a>
+                    </li>
+                    <li>
+                        <a>卫衣</a>
+                    </li>
+                    <li>
+                        <a>夹克</a>
+                    </li>
+                    <li>
+                        <a>T恤</a>
+                    </li>
+                    <li>
+                        <a>防风外套</a>
+                    </li>
+                    <li>
+                        <a>POLO</a>
+                    </li>
+                    <li>
+                        <a>背心</a>
+                    </li>
+                    <li>
+                        <a>皮衣</a>
+                    </li>
+                    <li>
+                        <a>大衣</a>
+                    </li>
+                    <li>
+                        <a>风衣</a>
+                    </li>
+                    <li>
+                        <a>毛衣</a>
+                    </li>
+                    <li>
+                        <a>针织衫</a>
+                    </li>
+                    <li>
+                        <a>西装</a>
+                    </li>
+                    <li>
+                        <a>马甲</a>
+                    </li>
+                    <li>
+                        <a>套装</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contain s3">
+            <div class="nav1-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/shangyi.png"></i>
+                            <div class="right">
+                                <h3>上衣</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/qiongzhuang.png"></i>
+                            <div class="right">
+                                <h3>裙装</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/kuzhuang.png"></i>
+                            <div class="right">
+                                <h3>裤装</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/xiexue.png"></i>
+                            <div class="right">
+                                <h3>鞋靴/h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/fupei.png"></i>
+                            <div class="right">
+                                <h3>服配</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/baolei.png"></i>
+                            <div class="right">
+                                <h3>包类</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav1-2">
+                <ul>
+                    <li>
+                        <a>全部上衣</a>
+                    </li>
+                    <li>
+                        <a>衬衫</a>
+                    </li>
+                    <li>
+                        <a>卫衣</a>
+                    </li>
+                    <li>
+                        <a>夹克</a>
+                    </li>
+                    <li>
+                        <a>T恤</a>
+                    </li>
+                    <li>
+                        <a>防风外套</a>
+                    </li>
+                    <li>
+                        <a>POLO</a>
+                    </li>
+                    <li>
+                        <a>背心</a>
+                    </li>
+                    <li>
+                        <a>皮衣</a>
+                    </li>
+                    <li>
+                        <a>大衣</a>
+                    </li>
+                    <li>
+                        <a>风衣</a>
+                    </li>
+                    <li>
+                        <a>毛衣</a>
+                    </li>
+                    <li>
+                        <a>针织衫</a>
+                    </li>
+                    <li>
+                        <a>西装</a>
+                    </li>
+                    <li>
+                        <a>马甲</a>
+                    </li>
+                    <li>
+                        <a>套装</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contain s4">
+            <div class="nav1-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/shuma.png"></i>
+                            <div class="right">
+                                <h3>数码3C</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/jujia.png"></i>
+                            <div class="right">
+                                <h3>居家</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>门票</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/meizhuang.png"></i>
+                            <div class="right">
+                                <h3>美妆/个护</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/wanju.png"></i>
+                            <div class="right">
+                                <h3>玩具礼品</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/shoubiao.png"></i>
+                            <div class="right">
+                                <h3>手表</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/shenghuo.png"></i>
+                            <div class="right">
+                                <h3>生活电器</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/wenju.png"></i>
+                            <div class="right">
+                                <h3>文具杂志</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>厨具餐具</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/chengren.png"></i>
+                            <div class="right">
+                                <h3>成人用品</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><img src="img/classify/yundong.png"></i>
+                            <div class="right">
+                                <h3>运动装备</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>厨具餐具</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>运动装备</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>居家生活</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i></i>
+                            <div class="right">
+                                <h3>生活电器</h3>
+                                <span><img src="img/classify/select.png"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav1-2">
+                <ul>
+                    <li>
+                        <a>全部上衣</a>
+                    </li>
+                    <li>
+                        <a>衬衫</a>
+                    </li>
+                    <li>
+                        <a>卫衣</a>
+                    </li>
+                    <li>
+                        <a>夹克</a>
+                    </li>
+                    <li>
+                        <a>T恤</a>
+                    </li>
+                    <li>
+                        <a>防风外套</a>
+                    </li>
+                    <li>
+                        <a>POLO</a>
+                    </li>
+                    <li>
+                        <a>背心</a>
+                    </li>
+                    <li>
+                        <a>皮衣</a>
+                    </li>
+                    <li>
+                        <a>大衣</a>
+                    </li>
+                    <li>
+                        <a>风衣</a>
+                    </li>
+                    <li>
+                        <a>毛衣</a>
+                    </li>
+                    <li>
+                        <a>针织衫</a>
+                    </li>
+                    <li>
+                        <a>西装</a>
+                    </li>
+                    <li>
+                        <a>马甲</a>
+                    </li>
+                    <li>
+                        <a>套装</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span><img src="img/index2.png"></span>
+                    <p style="color:#b0b0b0;">首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span><img src="img/gary1.png"></span>
+                    <p style="color:#444;">分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="ramble.html">
+                    <span><img src="img/rocket2.png"></span>
+                    <p>逛</p>
+                </a>
+            </li>
+            <li>
+                <a href="cart.html">
+                    <span><img src="img/cart2.png"></span>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="admin.html">
+                    <span><img src="img/admin2.png"></span>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+<div class="sidedoor" id="sidedoor">
+    <ul>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe648;</i>
+                <b>男生</b>
+                <span>BOYS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe685;</i>
+                <b>女生</b>
+                <span>GIRLS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe6f7;</i>
+                <b>潮童</b>
+                <span>KIDS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe634;</i>
+                <b>创意生活</b>
+                <span>LIFE STYLE</span>
+            </a>
+        </li>
+        <li class="empty"></li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe633;</i>
+                <div class="sides">
+                    <b>潮流优选</b>
+                    <span>BLK</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe61e;</i>
+                <div class="sides">
+                    <b>明星原创</b>
+                    <span>STAR</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe603;</i>
+                <div class="sides">
+                    <b>逛</b>
+                    <span>TRENDFINDER</span>
+                    <i class="iconfont">&#xe6d7;</i>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="sideon" id="sideon"></div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/classify.js"></script>

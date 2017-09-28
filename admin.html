@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>admin</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    var clientHeight = docEl.clientHeight;
+                    if (!clientWidth) return;
+                    if(clientHeight>clientWidth){
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientHeight / 750) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+</head>
+<body>
+<div class="all" id="all">
+    <header>
+        <button><img src="img/admin/shezhi.png"></button>
+        <b>我的</b>
+        <button class="bts"><img src="img/admin/duihua.png"></button>
+    </header>
+    <main>
+        <div class="Entry-top">
+            <a href="land.html">登录/注册</a>
+        </div>
+        <div class="collect">
+            <ul>
+                <li>
+                    <a href="#">收藏的商品</a>
+                </li>
+                <li>
+                    <a href="#">收藏的品牌</a>
+                </li>
+                <li>
+                    <a href="#">浏览记录</a>
+                </li>
+            </ul>
+        </div>
+        <div class="order">
+            <h3>我的订单</h3>
+            <a href="#">
+                <span>查看全部订单</span>
+                <b><img src="img/admin/more.png"></b>
+            </a>
+        </div>
+        <div class="payment">
+            <ul>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/daifukuan.png"></b>
+                        <p>待付款</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/daifahuo.png"></b>
+                        <p>待发货</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/daishouhuo.png"></b>
+                        <p>待收货</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/daishaidan.png"></b>
+                        <p>待晒单</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/tuihuanhuo.png"></b>
+                        <p>退/换货</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="empty"></div>
+        <div class="order2">
+            <h3>我的资产</h3>
+        </div>
+        <div class="property">
+            <ul>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/youhuiquan.png"></b>
+                        <p>优惠券</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/youhuobi.png"></b>
+                        <p>有货币</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/xiangouma.png"></b>
+                        <p>限购码</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/admin/youhuofenqi.png"></b>
+                        <p>有货分期</p>
+                        <span>去开通</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="empty2"></div>
+        <div class="heart">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i><img src="img/admin/wodeguang.png"></i>
+                        <div class="stroll">
+                            <h3>我的逛</h3>
+                            <b><img src="img/admin/more.png"></b>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i><img src="img/admin/wodeshaidan.png"></i>
+                        <div class="stroll">
+                            <h3>我的晒单</h3>
+                            <b><img src="img/admin/more.png"></b>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="empty3"></div>
+        <div class="invite">
+            <i><img src="img/admin/yaoqing.png"></i>
+            <div class="stroll">
+                <h3>邀请好友，50元现金券无线赚</h3>
+                <b><img src="img/admin/more.png"></b>
+            </div>
+        </div>
+        <div class="share">
+            <i><img src="img/admin/fenxianggou.png"></i>
+            <div class="stroll">
+                <h3>分享购</h3>
+                <b><img src="img/admin/more.png"></b>
+                <span><img src="img/admin/dian.png"></span>
+            </div>
+        </div>
+        <div class="empty4"></div>
+        <div class="serve">
+            <i><img src="img/admin/fankui.png"></i>
+            <div class="stroll">
+                <h3>服务与反馈</h3>
+                <b><img src="img/admin/more.png"></b>
+            </div>
+        </div>
+        <div class="empty5"></div>
+        <div class="contains">
+            <h3>为您优选新品</h3>
+            <ul>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t1.png"></b>
+                        <p>UNDERCOVER LANGUID奇幻苹果涂鸦TEE</p>
+                        <div class="price"><span>￥449.00</span><span>￥670.00</span>
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t2.png"></b>
+                        <p>YOHOOD  2017 全球潮流新品嘉年华 展览单人票</p>
+                        <div class="price">￥150.00
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t3.png"></b>
+                        <p>YOHOOD  2017 全球潮流新品嘉年华 展览友达票</p>
+                        <div class="price">￥270.00
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t4.png"></b>
+                        <p>DC MMxDC SS M TEES 短袖T恤</p>
+                        <div class="price"><span>￥173.00</span><span>￥345.00</span>
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t5.png"></b>
+                        <p>converse 女子 JACK PURCELL MODERN 低帮休闲鞋</p>
+                        <div class="price"><span>￥549.00</span><span>￥1099.00</span>
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t6.png"></b>
+                        <p>MADNESS WILD MAN BLUES OXFORD SHIRT</p>
+                        <div class="price">￥699.00
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t7.png"></b>
+                        <p>C2H4 全印花牛仔夹克</p>
+                        <div class="price">￥1299.00
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t8.png"></b>
+                        <p>BOY BY BOY 条纹休闲阔腿裤</p>
+                        <div class="price">￥1079.00
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t9.png"></b>
+                        <p>【春娇救志明电影周边】in55!W T-shirt 短袖T恤</p>
+                        <div class="price">￥469.00
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t10.png"></b>
+                        <p>KAWS Companion (Flayed)艺术公仔-棕色</p>
+                        <div class="price">￥1599.00
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t11.png"></b>
+                        <p>Publish×NEW ERA 纯色字母刺绣鸭舌帽</p>
+                        <div class="price"><span>￥199.00</span><span>￥359.00</span>
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t12.png"></b>
+                        <p>SANKUANZ X MYGE合作款 卡通图案印花T恤</p>
+                        <div class="price"><span>￥359.00</span><span>￥369.00</span>
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t13.png"></b>
+                        <p>TYAKASHA塔卡沙 砖红色大毛圈卫衣</p>
+                        <div class="price"><span>￥262.00</span><span>￥328.00</span>
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b><img src="img/cart/t14.png"></b>
+                        <p>VANS Authentic M</p>
+                        <div class="price"><span>￥349.00</span><span>￥495.00</span>
+                            <button><img src="img/admin/sandian.png"></button>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span><img src="img/index2.png"></span>
+                    <p style="color:#b0b0b0;">首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="classify.html">
+                    <span><img src="img/gary2.png"></span>
+                    <p>分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="ramble.html">
+                    <span><img src="img/rocket2.png"></span>
+                    <p>逛</p>
+                </a>
+            </li>
+            <li>
+                <a href="cart.html">
+                    <span><img src="img/cart2.png"></span>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span><img src="img/admin1.png"></span>
+                    <p   style="color:#444;">我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+<div class="sidedoor" id="sidedoor">
+    <ul>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe648;</i>
+                <b>男生</b>
+                <span>BOYS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe685;</i>
+                <b>女生</b>
+                <span>GIRLS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe6f7;</i>
+                <b>潮童</b>
+                <span>KIDS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe634;</i>
+                <b>创意生活</b>
+                <span>LIFE STYLE</span>
+            </a>
+        </li>
+        <li class="empty"></li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe633;</i>
+                <div class="sides">
+                    <b>潮流优选</b>
+                    <span>BLK</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe61e;</i>
+                <div class="sides">
+                    <b>明星原创</b>
+                    <span>STAR</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe603;</i>
+                <div class="sides">
+                    <b>逛</b>
+                    <span>TRENDFINDER</span>
+                    <i class="iconfont">&#xe6d7;</i>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="sideon" id="sideon"></div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="js/admin.js"></script>

@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>YoHo</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    var clientHeight = docEl.clientHeight;
+                    if (!clientWidth) return;
+                    if(clientHeight>clientWidth){
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientHeight / 750) + 'px';
+                    }
+                };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/ramble.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+<div class="all" id="all">
+    <header>
+        <div class="show-t">
+            <button id="unwind"><i class="iconfont">&#xe602;</i></button>
+            <div class="show">
+                <ul>
+                    <li><a href="#">逛</a></li>
+                    <li><a href="#">社区<span><img src="img/ramble/new.png"></span></a></li>
+                    <li><a href="#"><img src="img/ramble/show.png"><span><img src="img/ramble/hot.png"></span></a></li>
+                </ul>
+            </div>
+            <b><img src="img/ramble/whiteheart.png"></b>
+        </div>
+        <div class="show-b">
+            <ul>
+                <li><a href="#">最新</a></li>
+                <li><a href="#">人气</a></li>
+                <li><a href="#">搭配</a></li>
+                <li><a href="#">潮品</a></li>
+                <li><a href="#">视频</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="swiper-container flash1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/ramble/flash1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/ramble/flash2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/ramble/flash3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/ramble/falsh4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/ramble/flash5.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="pasture">
+            <div class="naoki">
+                <b><img src="img/ramble/naoki.jpg"></b>
+                <p>NaoKi闹</p>
+            </div>
+            <div class="topic">
+                <img src="img/ramble/tro.jpg">
+                <div class="talk">话 题</div>
+            </div>
+            <div class="poise">
+                <h3>姿势|为毛人人都往头上戴“绿帽子”？</h3>
+                <p>当然是选择原谅他啊！！</p>
+                <div class="attitude">
+                    <b><span><img src="img/ramble/clock.png"></span><span> 08月18日 23:00</span></b>
+                    <i><span><img src="img/ramble/eye.png"></span><span>4059</span></i>
+                    <em><img src="img/ramble/share.png"></em>
+                    <em><img src="img/ramble/heart1.png"></em>
+                </div>
+            </div>
+        </div>
+        <div class="taka">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/taka1.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/taka2.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/taka3.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/taka4.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/taka5.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pasture2">
+            <div class="naoki">
+                <b><img src="img/ramble/chaos.jpg"></b>
+                <p>Chaos</p>
+            </div>
+            <div class="topic">
+                <img src="img/ramble/trend.jpg">
+                <div class="talk">搭配</div>
+            </div>
+            <div class="poise">
+                <h3>串标元素，当下大热！</h3>
+                <p>两袖的串标印花设计，无疑是当下最流行的元素之一。</p>
+                <div class="attitude">
+                    <b><span><img src="img/ramble/clock.png"></span><span> 08月18日 21:50</span></b>
+                    <i><span><img src="img/ramble/eye.png"></span><span>4850</span></i>
+                    <em><img src="img/ramble/share.png"></em>
+                    <em><img src="img/ramble/heart1.png"></em>
+                </div>
+            </div>
+        </div>
+        <div class="taka2">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/macro1.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>MACROPUS简约休...</p>
+                            <span>￥59.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/macro2.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>Randomevent 撞...</p>
+                            <span>￥299.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/macro3.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/macro4.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/macro5.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pasture3">
+            <div class="naoki">
+                <b><img src="img/ramble/dada.jpg"></b>
+                <p>达达</p>
+            </div>
+            <div class="topic">
+                <img src="img/ramble/dapei.jpg">
+                <div class="talk">搭配</div>
+            </div>
+            <div class="poise">
+                <h3>这个颜色可能更适合你~</h3>
+                <p>运用高级灰</p>
+                <div class="attitude">
+                    <b><span><img src="img/ramble/clock.png"></span><span> 08月18日 20:30</span></b>
+                    <i><span><img src="img/ramble/eye.png"></span><span>7859</span></i>
+                    <em><img src="img/ramble/share.png"></em>
+                    <em><img src="img/ramble/heart1.png"></em>
+                </div>
+            </div>
+        </div>
+        <div class="taka3">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/hers1.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>HerschelSupply D...</p>
+                            <span>￥1120.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/hers2.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>vans Old Skool U</p>
+                            <span>￥449.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/hers3.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/hers4.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/hers5.jpg">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pasture4">
+            <div class="naoki">
+                <b><img src="img/ramble/dada.jpg"></b>
+                <p>达达</p>
+            </div>
+            <div class="topic">
+                <img src="img/ramble/dickies.png">
+                <div class="talk">搭配</div>
+            </div>
+            <div class="poise">
+                <h3>T恤牛仔裤，怎么可能不百搭？？</h3>
+                <p>低调耐看的就是你了？</p>
+                <div class="attitude">
+                    <b><span><img src="img/ramble/clock.png"></span><span> 08月18日 19:50</span></b>
+                    <i><span><img src="img/ramble/eye.png"></span><span>6920</span></i>
+                    <em><img src="img/ramble/share.png"></em>
+                    <em><img src="img/ramble/heart1.png"></em>
+                </div>
+            </div>
+        </div>
+        <div class="taka4">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/dic1.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>DC DETENTION II...</p>
+                            <span>￥248.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/dic2.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>蓝布屋 匠造日式水...</p>
+                            <span>￥419.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/dic3.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/dic4.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/dic5.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pasture5">
+            <div class="naoki">
+                <b><img src="img/ramble/demo.png"></b>
+                <p>demo</p>
+            </div>
+            <div class="topic">
+                <img src="img/ramble/soin.png">
+                <div class="talk">话题</div>
+            </div>
+            <div class="poise">
+                <h3>为什么你总是穿不好基本款？</h3>
+                <p>几招简单的方法，让你穿好基本款！</p>
+                <div class="attitude">
+                    <b><span><img src="img/ramble/clock.png"></span><span> 08月18日 19:00</span></b>
+                    <i><span><img src="img/ramble/eye.png"></span><span>7224</span></i>
+                    <em><img src="img/ramble/share.png"></em>
+                    <em><img src="img/ramble/heart1.png"></em>
+                </div>
+            </div>
+        </div>
+        <div class="taka5">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/lazy1.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>Preppy Elite 酷炫</p>
+                            <span>￥79.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/lazy2.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>BLACKJACK 品牌...</p>
+                            <span>￥99.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/lazy3.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/lazy4.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/lazy5.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="pasture6">
+            <div class="naoki">
+                <b><img src="img/ramble/leye.png"></b>
+                <p>乐爷</p>
+            </div>
+            <div class="topic">
+                <img src="img/ramble/qinglv.png">
+                <div class="talk">话题</div>
+            </div>
+            <div class="poise">
+                <h3>单身狗慎点，真想和女朋友这样穿VANS!</h3>
+                <p>VANS花式“虐狗”，多种风格情侣穿搭一键get！</p>
+                <div class="attitude">
+                    <b><span><img src="img/ramble/clock.png"></span><span> 08月18日 12:11</span></b>
+                    <i><span><img src="img/ramble/eye.png"></span><span>15992</span></i>
+                    <em><img src="img/ramble/share.png"></em>
+                    <em><img src="img/ramble/heart1.png"></em>
+                </div>
+            </div>
+        </div>
+        <div class="taka6">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/vans1.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>VANS THANKS C...</p>
+                            <span>￥590.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/vans2.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>VANS Old Skool</p>
+                            <span>￥635.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/vans3.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/vans4.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="taka-left">
+                            <img src="img/ramble/vans5.png">
+                        </div>
+                        <div class="taka-right">
+                            <p>TAKA ORIGINAL...</p>
+                            <span>￥188.00</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span><img src="img/index2.png"></span>
+                    <p style="color:#b0b0b0;">首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="classify.html">
+                    <span><img src="img/gary2.png"></span>
+                    <p>分类</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span><img src="img/rocket1.png"></span>
+                    <p style="color:#444;">逛</p>
+                </a>
+            </li>
+            <li>
+                <a href="cart.html">
+                    <span><img src="img/cart2.png"></span>
+                    <p>购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="admin.html">
+                    <span><img src="img/admin2.png"></span>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+<div class="sidedoor" id="sidedoor">
+    <ul>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe648;</i>
+                <b>男生</b>
+                <span>BOYS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe685;</i>
+                <b>女生</b>
+                <span>GIRLS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe6f7;</i>
+                <b>潮童</b>
+                <span>KIDS</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe634;</i>
+                <b>创意生活</b>
+                <span>LIFE STYLE</span>
+            </a>
+        </li>
+        <li class="empty"></li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe633;</i>
+                <div class="sides">
+                    <b>潮流优选</b>
+                    <span>BLK</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe61e;</i>
+                <div class="sides">
+                    <b>明星原创</b>
+                    <span>STAR</span>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="iconfont">&#xe603;</i>
+                <div class="sides">
+                    <b>逛</b>
+                    <span>TRENDFINDER</span>
+                    <i class="iconfont">&#xe6d7;</i>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="sideon" id="sideon"></div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/ramble.js"></script>
